@@ -1143,14 +1143,16 @@ p {
 }
 
 .team-hover-effects-inner>h4 {
-    display: inline-block;
+	display: inline-block;
+	min-width: 180px;
     padding: 0 10px;
     font-size: 22px;
     color: white;
 }
 
 .team-hover-effects-inner>h5 {
-    display: inline-block;
+	display: inline-block;
+	width: 180px;
     padding: 0 10px 20px 10px;
     font-size: 16px;
     color: #b5aec4;

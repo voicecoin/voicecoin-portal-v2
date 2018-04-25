@@ -92,7 +92,37 @@ $(document).ready(function () {
 
 	window.addEventListener("resize", componentDidMount);
 
-	$("#george-zhao").click(function() {
-		$("#george-zhao-bio").slideToggle("slow","linear");
+	$("#george-zhao").click(function () {
+		$("#george-zhao-bio").slideToggle("slow", "linear");
+	});
+	$("#elaine-shao").click(function () {
+		$("#elaine-shao-bio").slideToggle("slow", "linear");
+	});
+	$("#yong-duan").click(function () {
+		$("#yong-duan-bio").slideToggle("slow", "linear");
+	});
+	$("#kyle-bao").click(function () {
+		$("#kyle-bao-bio").slideToggle("slow", "linear");
+	});
+	$("#joyce-zhang").click(function () {
+		$("#joyce-zhang-bio").slideToggle("slow", "linear");
+	});
+	$("#craig-watts").click(function () {
+		$("#craig-watts-bio").slideToggle("slow", "linear");
+	});
+	$("#terry-fogarty").click(function () {
+		$("#terry-fogarty-bio").slideToggle("slow", "linear");
+	});
+	$("#chelsea-rustrum").click(function () {
+		$("#chelsea-rustrum-bio").slideToggle("slow", "linear");
+	});
+	$("#david-passiak").click(function () {
+		$("#david-passiak-bio").slideToggle("slow", "linear");
+	});
+	$("#monette-stephens").click(function () {
+		$("#monette-stephens-bio").slideToggle("slow", "linear");
+	});
+	$("#amanda-rivera").click(function () {
+		$("#amanda-rivera-bio").slideToggle("slow", "linear");
 	});
 });
