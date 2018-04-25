@@ -1089,14 +1089,22 @@ p {
 -------------------------- */
 
 .member-image {
-	margin-bottom: 30px;
+	margin: 0 auto 30px auto;
 	border-radius: 30px 30px 30px 0;
+	border: 1px solid #ced4da;
 	position: relative;
+	max-width: 180px;
+	max-height: 180px;
+	overflow: hidden;
 	z-index: 1;
 }
 
 .member-image img {
 	border-radius: 30px 30px 30px 0;
+}
+.member-text {
+	max-width: 180px;
+	margin: 0 auto;
 }
 
 .member-text>h4 {
