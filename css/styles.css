@@ -647,7 +647,8 @@ a#scrollUp:hover{
     top: -20px;
 }
 .testminial-img img{
-    border-radius: 10px;
+	border-radius: 10px;
+	max-width: 116px;
 }
 .testmonial-content p{
     line-height: 26px;
