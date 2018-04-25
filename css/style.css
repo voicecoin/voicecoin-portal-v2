@@ -537,6 +537,18 @@ p {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
 
+.wellcome-heading > img {
+	display: inline-block;
+	margin-top: -60px;
+	max-height: 140px;
+}
+
+.wellcome-heading > h2 {
+	display: inline-block;
+		margin-left: 30px;
+		line-height: 220px;
+}
+
 .wellcome-heading {
 	margin-bottom: 100px;
 }
