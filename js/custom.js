@@ -1,12 +1,12 @@
 function componentDidMount() {
 	var canvas = document.getElementById("welcome-star"),
 		ctx = canvas.getContext('2d');
-	var width = document.getElementById('home-container').clientWidth;
-	var height = $('#home-container').height();
-	canvas.width = width;
-	canvas.height = window.innerHeight + 400;
+	var height = $('#home').height();
+	canvas.width = window.innerWidth;
+	canvas.height = height;
+	console.log(canvas.width);
 	var stars = [], // Array that contains the stars
-		FPS = 60, // Frames per second
+		FPS = 30, // Frames per second
 		// x = 100, // Number of stars
 		x = Math.round(canvas.width / 25),
 		mouse = {
@@ -85,4 +85,7 @@ function componentDidMount() {
 	}
 	tick();
 }
+
 componentDidMount();
+
+window.addEventListener("resize", componentDidMount);
