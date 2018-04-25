@@ -4,7 +4,6 @@ function componentDidMount() {
 	var height = $('#home').height();
 	canvas.width = window.innerWidth;
 	canvas.height = height;
-	console.log(canvas.width);
 	var stars = [], // Array that contains the stars
 		FPS = 30, // Frames per second
 		// x = 100, // Number of stars
