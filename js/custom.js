@@ -85,6 +85,14 @@ function componentDidMount() {
 	tick();
 }
 
-componentDidMount();
 
-window.addEventListener("resize", componentDidMount);
+
+$(document).ready(function () {
+	componentDidMount();
+
+	window.addEventListener("resize", componentDidMount);
+
+	$("#george-zhao").click(function() {
+		$("#george-zhao-bio").slideToggle("slow","linear");
+	});
+});
