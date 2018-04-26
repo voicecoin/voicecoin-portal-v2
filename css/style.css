@@ -1091,7 +1091,6 @@ p {
 .member-image {
     margin: 0 auto 30px auto;
     border-radius: 30px 30px 30px 0;
-    border: 1px solid rgba(179, 164, 219, 0.3);
     position: relative;
     max-width: 180px;
     max-height: 180px;
