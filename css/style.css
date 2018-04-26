@@ -1257,22 +1257,36 @@ p {
     transition-duration: 500ms;
 }
 
+/* --------------------------
+:: 14.0 Footer Area CSS Start
+-------------------------- */
+
 .footer-contact-area {
     background: #f5f9fc;
+}
+
+.footer-img {
+	margin-bottom: 10px;
+}
+
+.footer-img img {
+	height: 100px;
 }
 
 .footer-text>p {
     margin-bottom: 50px;
 }
 
-/* --------------------------
-:: 14.0 Footer Area CSS Start
--------------------------- */
-
 .footer-text>h2 {
     color: #5b32b4;
     font-size: 72px;
     font-weight: 700;
+}
+
+.footer-text>h3 {
+    color: #662D91;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .footer-social-icon>a>i {
@@ -1302,6 +1316,7 @@ p {
 .footer-text {
     margin-bottom: 15px;
 }
+
 
 .footer-menu ul li {
     display: inline-block;
