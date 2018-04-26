@@ -180,4 +180,52 @@ $(document).ready(function () {
 			$("#amanda-rivera-bio").fadeOut("slow");
 		}
 	});
+	$("#ruxiong-li").click(function () {
+		if ($("#ruxiong-li-bio").is(":hidden")) {
+			$(".team-hover-effects").fadeOut("slow");
+			$("#ruxiong-li-bio").fadeIn("slow");
+		} else {
+			$("#ruxiong-li-bio").fadeOut("slow");
+		}
+	});
+	$("#bing-liu").click(function () {
+		if ($("#bing-liu-bio").is(":hidden")) {
+			$(".team-hover-effects").fadeOut("slow");
+			$("#bing-liu-bio").fadeIn("slow");
+		} else {
+			$("#bing-liu-bio").fadeOut("slow");
+		}
+	});
+	$("#pierre-he").click(function () {
+		if ($("#pierre-he-bio").is(":hidden")) {
+			$(".team-hover-effects").fadeOut("slow");
+			$("#pierre-he-bio").fadeIn("slow");
+		} else {
+			$("#pierre-he-bio").fadeOut("slow");
+		}
+	});
+	$("#ken-huang").click(function () {
+		if ($("#ken-huang-bio").is(":hidden")) {
+			$(".team-hover-effects").fadeOut("slow");
+			$("#ken-huang-bio").fadeIn("slow");
+		} else {
+			$("#ken-huang-bio").fadeOut("slow");
+		}
+	});
+	$("#zong-ling").click(function () {
+		if ($("#zong-ling-bio").is(":hidden")) {
+			$(".team-hover-effects").fadeOut("slow");
+			$("#zong-ling-bio").fadeIn("slow");
+		} else {
+			$("#zong-ling-bio").fadeOut("slow");
+		}
+	});
+	$("#liren-chen").click(function () {
+		if ($("#liren-chen-bio").is(":hidden")) {
+			$(".team-hover-effects").fadeOut("slow");
+			$("#liren-chen-bio").fadeIn("slow");
+		} else {
+			$("#liren-chen-bio").fadeOut("slow");
+		}
+	});
 });
