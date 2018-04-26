@@ -117,7 +117,6 @@ $(document).ready(function () {
 		}
 	});
 	$("#kyle-bao").click(function () {
-		$("#kyle-bao-bio").slideToggle("slow", "linear");
 		if ($("#kyle-bao-bio").is(":hidden")) {
 			$(".team-hover-effects").fadeOut("slow");
 			$("#kyle-bao-bio").fadeIn("slow");
