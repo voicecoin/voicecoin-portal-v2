@@ -1128,11 +1128,17 @@ p {
     z-index: 1;
     display: none;
     padding: 0 20px 20px 20px;
+    z-index: 2;
+}
+
+.team-hover-effects-img {
+    margin-top: 20px;
+    z-index: 3;
 }
 
 .team-hover-effects-inner {
     margin: 0 auto;
-    margin-top: 230px;
+    margin-top: 30px;
 }
 
 .team-hover-effects-inner>p {
@@ -1142,16 +1148,16 @@ p {
 }
 
 .team-hover-effects-inner>h4 {
-	display: inline-block;
-	min-width: 180px;
+    display: inline-block;
+    min-width: 180px;
     padding: 0 10px;
     font-size: 22px;
     color: white;
 }
 
 .team-hover-effects-inner>h5 {
-	display: inline-block;
-	width: 180px;
+    display: inline-block;
+    width: 180px;
     padding: 0 10px 20px 10px;
     font-size: 16px;
     color: #b5aec4;
