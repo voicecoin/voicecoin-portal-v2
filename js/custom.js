@@ -94,143 +94,193 @@ $(document).ready(function () {
 	componentDidMount();
 
 	window.addEventListener("resize", componentDidMount);
-	$("#george-zhao").click(function () {
-		if ($("#george-zhao-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#george-zhao-bio").fadeIn("slow");
-		} else {
-			$("#george-zhao-bio").fadeOut("slow");
-		}
-	});
-	$("#elaine-shao").click(function () {
-		if ($("#elaine-shao-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#elaine-shao-bio").fadeIn("slow");
-		} else {
-			$("#elaine-shao-bio").fadeOut("slow");
-		}
-	});
-	$("#yong-duan").click(function () {
-		if ($("#yong-duan-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#yong-duan-bio").fadeIn("slow");
-		} else {
-			$("#yong-duan-bio").fadeOut("slow");
-		}
-	});
-	$("#kyle-bao").click(function () {
-		if ($("#kyle-bao-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#kyle-bao-bio").fadeIn("slow");
-		} else {
-			$("#kyle-bao-bio").fadeOut("slow");
-		}
-	});
-	$("#joyce-zhang").click(function () {
-		if ($("#joyce-zhang-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#joyce-zhang-bio").fadeIn("slow");
-		} else {
-			$("#joyce-zhang-bio").fadeOut("slow");
-		}
-	});
-	$("#craig-watts").click(function () {
-		if ($("#craig-watts-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#craig-watts-bio").fadeIn("slow");
-		} else {
-			$("#craig-watts-bio").fadeOut("slow");
-		}
-	});
-	$("#terry-fogarty").click(function () {
-		if ($("#terry-fogarty-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#terry-fogarty-bio").fadeIn("slow");
-		} else {
-			$("#terry-fogarty-bio").fadeOut("slow");
-		}
-	});
-	$("#chelsea-rustrum").click(function () {
-		if ($("#chelsea-rustrum-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#chelsea-rustrum-bio").fadeIn("slow");
-		} else {
-			$("#chelsea-rustrum-bio").fadeOut("slow");
-		}
-	});
-	$("#david-passiak").click(function () {
-		if ($("#david-passiak-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#david-passiak-bio").fadeIn("slow");
-		} else {
-			$("#david-passiak-bio").fadeOut("slow");
-		}
-	});
-	$("#monette-stephens").click(function () {
-		if ($("#monette-stephens-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#monette-stephens-bio").fadeIn("slow");
-		} else {
-			$("#monette-stephens-bio").fadeOut("slow");
-		}
-	});
-	$("#amanda-rivera").click(function () {
-		if ($("#amanda-rivera-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#amanda-rivera-bio").fadeIn("slow");
-		} else {
-			$("#amanda-rivera-bio").fadeOut("slow");
-		}
-	});
-	$("#ruxiong-li").click(function () {
-		if ($("#ruxiong-li-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#ruxiong-li-bio").fadeIn("slow");
-		} else {
-			$("#ruxiong-li-bio").fadeOut("slow");
-		}
-	});
-	$("#bing-liu").click(function () {
-		if ($("#bing-liu-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#bing-liu-bio").fadeIn("slow");
-		} else {
-			$("#bing-liu-bio").fadeOut("slow");
-		}
-	});
-	$("#pierre-he").click(function () {
-		if ($("#pierre-he-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#pierre-he-bio").fadeIn("slow");
-		} else {
-			$("#pierre-he-bio").fadeOut("slow");
-		}
-	});
-	$("#ken-huang").click(function () {
-		if ($("#ken-huang-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#ken-huang-bio").fadeIn("slow");
-		} else {
-			$("#ken-huang-bio").fadeOut("slow");
-		}
-	});
-	$("#zong-ling").click(function () {
-		if ($("#zong-ling-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#zong-ling-bio").fadeIn("slow");
-		} else {
-			$("#zong-ling-bio").fadeOut("slow");
-		}
-	});
 
-	$('#liren-chen').on('mouseenter', function () {
-		hoverBio('liren-chen');
+	$('#george-zhao').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
 	});
-	$('#liren-chen').on('mouseleave', function () {
-		hoverBio();
+	$('#elaine-shao').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
 	});
-	$('#liren-chen').on('click', function () {
-		clickBio('liren-chen');
+	$('#yong-duan').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#kyle-bao').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#joyce-zhang').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#craig-watts').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#terry-fogarty').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#chelsea-rustrum').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#david-passiak').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#monette-stephens').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#amanda-rivera').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#ruxiong-li').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#bing-liu').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#pierre-he').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#ken-huang').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#zong-ling').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#liren-chen').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
 	});
 });
 
