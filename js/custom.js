@@ -85,10 +85,28 @@ function componentDidMount() {
 	tick();
 }
 
-var isAndroid = /android/i.test(navigator.userAgent.toLowerCase());
-var isWindows = /windows phone/i.test(navigator.userAgent.toLowerCase());
-var isBlackberry = /blackberry/i.test(navigator.userAgent.toLowerCase());
-var isiDevice = /ipad|iphone|ipod/i.test(navigator.userAgent.toLowerCase());
+function clickBio(name) {
+	if (name) {
+		if ($(`#${name}-bio`).is(":hidden")) {
+			$(".team-hover-effects").fadeOut("slow");
+			$(`#${name}-bio`).fadeIn("slow");
+			console.log(`#${name}-bio`);
+		} else {
+			$(`#${name}-bio`).fadeOut("slow");
+		}
+	} else {
+		$(".team-hover-effects").fadeOut("slow");
+	}
+}
+
+function hoverBio(name) {
+	if (name) {
+		$(".team-hover-effects").fadeOut("slow");
+		$(`#${name}-bio`).fadeIn("slow");
+	} else {
+		$(".team-hover-effects").fadeOut("slow");
+	}
+}
 
 $(document).ready(function () {
 	componentDidMount();
@@ -282,27 +300,21 @@ $(document).ready(function () {
 			hoverBio();
 		}
 	});
-});
 
-function clickBio(name) {
-	if (name) {
-		if ($(`#${name}-bio`).is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$(`#${name}-bio`).fadeIn("slow");
-			console.log(`#${name}-bio`);
-		} else {
-			$(`#${name}-bio`).fadeOut("slow");
+	$('#wechat').bind({
+		click: function () {
+			var img = $('img#footer-logo').attr("src");
+			if (img === "img/core-img/voicecoin-wechat.jpg") {
+				$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
+			} else {
+				$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
+			}
+		},
+		mouseenter: function () {
+			$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
+		},
+		mouseleave: function () {
+			$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
 		}
-	} else {
-		$(".team-hover-effects").fadeOut("slow");
-	}
-}
-
-function hoverBio(name) {
-	if (name) {
-		$(".team-hover-effects").fadeOut("slow");
-		$(`#${name}-bio`).fadeIn("slow");
-	} else {
-		$(".team-hover-effects").fadeOut("slow");
-	}
-}
+	});
+});
