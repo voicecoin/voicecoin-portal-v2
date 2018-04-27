@@ -1391,3 +1391,7 @@ canvas#welcome-star {
 .problem-text {
 	min-height: 345px;
 }
+
+.partner-logo {
+	margin-bottom: 100px;
+}
