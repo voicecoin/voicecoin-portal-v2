@@ -1400,6 +1400,10 @@ canvas#welcome-star {
 	margin-top: 15px;
 }
 
+.dev-name {
+	text-align: right;
+}
+
 .dev-name > h4 {
 	color: #5b32b4;
 }
