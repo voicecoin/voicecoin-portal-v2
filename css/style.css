@@ -1375,6 +1375,10 @@ canvas#welcome-star {
 	color: gray;
 }
 
+.step-text {
+	min-height: 260px;
+}
+
 .step-text>h1 {
 	color: #5b32b4;
 }
