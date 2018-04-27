@@ -1366,3 +1366,7 @@ canvas#welcome-star {
     left: 0;
     z-index: -1;
 }
+
+#solution {
+	background-color: #f5f9fc;
+}
