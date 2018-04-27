@@ -1395,3 +1395,11 @@ canvas#welcome-star {
 .partner-logo {
 	margin-bottom: 100px;
 }
+
+.dev-item {
+	margin-top: 15px;
+}
+
+.dev-name > h4 {
+	color: #5b32b4;
+}
