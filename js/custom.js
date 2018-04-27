@@ -85,13 +85,15 @@ function componentDidMount() {
 	tick();
 }
 
-
+var isAndroid = /android/i.test(navigator.userAgent.toLowerCase());
+var isWindows = /windows phone/i.test(navigator.userAgent.toLowerCase());
+var isBlackberry = /blackberry/i.test(navigator.userAgent.toLowerCase());
+var isiDevice = /ipad|iphone|ipod/i.test(navigator.userAgent.toLowerCase());
 
 $(document).ready(function () {
 	componentDidMount();
 
 	window.addEventListener("resize", componentDidMount);
-
 	$("#george-zhao").click(function () {
 		if ($("#george-zhao-bio").is(":hidden")) {
 			$(".team-hover-effects").fadeOut("slow");
@@ -220,12 +222,37 @@ $(document).ready(function () {
 			$("#zong-ling-bio").fadeOut("slow");
 		}
 	});
-	$("#liren-chen").click(function () {
-		if ($("#liren-chen-bio").is(":hidden")) {
-			$(".team-hover-effects").fadeOut("slow");
-			$("#liren-chen-bio").fadeIn("slow");
-		} else {
-			$("#liren-chen-bio").fadeOut("slow");
-		}
+
+	$('#liren-chen').on('mouseenter', function () {
+		hoverBio('liren-chen');
+	});
+	$('#liren-chen').on('mouseleave', function () {
+		hoverBio();
+	});
+	$('#liren-chen').on('click', function () {
+		clickBio('liren-chen');
 	});
 });
+
+function clickBio(name) {
+	if (name) {
+		if ($(`#${name}-bio`).is(":hidden")) {
+			$(".team-hover-effects").fadeOut("slow");
+			$(`#${name}-bio`).fadeIn("slow");
+			console.log(`#${name}-bio`);
+		} else {
+			$(`#${name}-bio`).fadeOut("slow");
+		}
+	} else {
+		$(".team-hover-effects").fadeOut("slow");
+	}
+}
+
+function hoverBio(name) {
+	if (name) {
+		$(".team-hover-effects").fadeOut("slow");
+		$(`#${name}-bio`).fadeIn("slow");
+	} else {
+		$(".team-hover-effects").fadeOut("slow");
+	}
+}
