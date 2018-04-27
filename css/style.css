@@ -1175,20 +1175,27 @@ p {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+	justify-content: center;
 }
 
 .team-social-icon>a {
     font-size: 14px;
     color: #fff;
-    background: #9a81d7;
+    background: #fb397d;
     height: 40px;
     width: 40px;
     line-height: 40px;
     text-align: center;
     border-radius: 10px 10px 10px 0;
     display: block;
-    margin: 2.5px;
+	margin: 2.5px;
+	-webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.team-social-icon>a:hover {
+	background-color: rgb(102, 45, 145);
 }
 
 .single-team-member {
