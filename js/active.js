@@ -51,12 +51,16 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 500,
-            arrows: false,
-            fade: true,
-            asNavFor: '.slider-nav'
+            arrows: true,
+			fade: true,
+			dots: true,
+			autoplay: true,
+			asNavFor: '.slider-nav',
+			prevArrow: '<i class="fa fa-angle-left"></i>',
+            nextArrow: '<i class="fa fa-angle-right"></i>'
         });
         $('.slider-nav').slick({
-            slidesToShow: 3,
+            slidesToShow: 5,
             slidesToScroll: 1,
             speed: 500,
             asNavFor: '.slider-for',
