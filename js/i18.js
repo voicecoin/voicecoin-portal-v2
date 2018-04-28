@@ -80,6 +80,28 @@ var app = new Vue({
 						},
 					]
 				},
+				feat: {
+					h2: 'Voiceweb Blockchain Features',
+					i: [{
+							h4: 'Decentralized Platform',
+						},
+						{
+							h4: 'Secure Transactions',
+						},
+						{
+							h4: 'Interconnected Synergy',
+						},
+						{
+							h4: 'Trusted Support',
+						},
+						{
+							h4: 'World Wide Communication',
+						},
+						{
+							h4: 'Fast Uptime',
+						},
+					]
+				},
 			},
 			zh: {
 				header: {
@@ -144,7 +166,7 @@ var app = new Vue({
 					]
 				},
 				sch: {
-					h2: '工作原理',
+					h2: '技术原理',
 					h4: '语音网络区块链如何工作？',
 					p1: '语音链是语音万维网上连接所有语音对话服务的基础共链，语音币是语音网络的加密货币。',
 					i: [{
@@ -155,6 +177,28 @@ var app = new Vue({
 						},
 						{
 							p: '语音服务全球开放、高度互联，声声有力，尽情享受在语音万维网冲浪的酣畅体验吧！',
+						},
+					]
+				},
+				feat: {
+					h2: '语音网络区块链功能',
+					i: [{
+							h4: '去中心化平台',
+						},
+						{
+							h4: '安全交易',
+						},
+						{
+							h4: '互联协同',
+						},
+						{
+							h4: '可信赖的支持',
+						},
+						{
+							h4: '世界范围的交流',
+						},
+						{
+							h4: '快速且正常地运行',
 						},
 					]
 				},
