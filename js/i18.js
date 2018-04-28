@@ -43,11 +43,11 @@ var app = new Vue({
 					lang: '中文'
 				},
 				wel: {
-					title: 'VOICECOIN',
+					title: 'Voice Enabled World Wide Web',
 					sub1: 'Voiceweb, voice-driven decentralized smart internet based on voicechain,',
 					sub2: 'an universal bridge between chatbot and IoT.',
 					sub3: 'Voicecoin is the money of Voiceweb.',
-					buy: 'Buy Token',
+					buy: 'Buy Tokens',
 				},
 				spe: {
 					h2: 'Ask what you need',
@@ -248,6 +248,9 @@ var app = new Vue({
 						},
 					],
 				},
+				partners: {
+					h2: 'Partners'
+				},
 				foot: {
 					paper: 'White Paper',
 					saft: 'SAFT',
@@ -270,11 +273,11 @@ var app = new Vue({
 					lang: 'ENG'
 				},
 				wel: {
-					title: 'VOICECOIN',
+					title: '语音互联网',
 					sub1: '语音币，去中心化的语音万维网',
 					sub2: '机器人与物联网之间的桥梁',
 					sub3: '语音币是语音网络的通用货币',
-					buy: '购 买',
+					buy: '购买语音币',
 				},
 				spe: {
 					h2: '答你所想 不负众望',
@@ -474,6 +477,9 @@ var app = new Vue({
 							p1: "前 Google 员工，在 Google+ 和多语言搜索引擎领域有 7 年工作经验。领导移动搜索奇虎360和盘古搜索引擎。卡内基梅隆大学毕业。",
 						},
 					],
+				},
+				partners: {
+					h2: '合作伙伴'
 				},
 				foot: {
 					paper: '白皮书',
