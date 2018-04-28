@@ -251,6 +251,7 @@ var app = new Vue({
 				foot: {
 					paper: 'White Paper',
 					saft: 'SAFT',
+					gist: 'GIST',
 					git: 'GitHub',
 					contact: 'Contact',
 					vf: 'Voiceweb Foundation',
@@ -477,6 +478,7 @@ var app = new Vue({
 				foot: {
 					paper: '白皮书',
 					saft: 'SAFT',
+					gist: 'GIST',
 					git: 'GitHub',
 					contact: '联系我们',
 					vf: '语音万维网基金会',
