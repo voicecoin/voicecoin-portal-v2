@@ -27,340 +27,139 @@
 	<div id="preloader">
 		<div class="colorlib-load"></div>
 	</div>
-
-	<!-- ***** Header Area Start ***** -->
-	<header class="header_area animated">
-		<div class="container-fluid">
-			<div class="row align-items-center">
-				<!-- Menu Area Start -->
-				<div class="col-12 col-lg-12">
-					<div class="menu_area">
-						<nav class="navbar navbar-expand-lg navbar-light">
-							<!-- Logo -->
-							<a class="navbar-brand" href="index.html">
-								<img src="img/core-img/logo.png" alt="Voicecoin">
-							</a>
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false"
-							    aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
-							</button>
-							<!-- Menu Area -->
-							<div class="collapse navbar-collapse" id="ca-navbar">
-								<ul class="navbar-nav ml-auto" id="nav">
-									<li class="nav-item active">
-										<a class="nav-link" href="#home">Home</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#team">Team</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="http://contribute.voicecoin.com/" target="_blank">Token Sale</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="http://www.voiceweb.io/" target="_blank">Foundation</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="http://www.voicecoin.net/" target="_blank">Testnet</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="faq.html" target="_blank">FAQ</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">中文</a>
-									</li>
-								</ul>
-								<!-- <div class="sing-up-button d-lg-none">
-                                    <a href="#">Sign Up Free</a>
-                                </div> -->
-							</div>
-						</nav>
-					</div>
-				</div>
-				<!-- Signup btn -->
-				<!-- <div class="col-12 col-lg-2">
-                    <div class="sing-up-button d-none d-lg-block">
-                        <a href="#">Sign Up Free</a>
-                    </div>
-                </div> -->
-			</div>
-		</div>
-	</header>
-	<!-- ***** Header Area End ***** -->
-
-	<!-- ***** Wellcome Area Start ***** -->
-	<section class="wellcome_area clearfix" id="home">
-		<div class="container h-100" id="home-container">
-			<div class="row h-100 align-items-center">
-				<div class="col-12 col-md">
-					<div class="wellcome-heading">
-						<img src="img/core-img/logo-2.png" alt="">
-						<h2>VOICECOIN</h2>
-						<p>Voiceweb, voice-driven decentralized smart internet based on voicechain,
-							<br>an universal bridge between chatbot and IoT.
-							<br>Voicecoin is the money of Voiceweb. </p>
-					</div>
-					<div class="get-start-area">
-						<!-- Form Start -->
-						<form action="#" method="post" class="form-inline">
-							<!-- <input type="email" class="form-control email" placeholder="name@company.com"> -->
-							<input type="submit" class="submit" value="Buy Token">
-						</form>
-						<!-- Form End -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Welcome thumb -->
-		<div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
-			<img src="img/bg-img/welcome-img.png" alt="">
-		</div>
-		<canvas id="welcome-star">
-		</canvas>
-
-	</section>
-	<!-- ***** Wellcome Area End ***** -->
-
-	<!-- ***** Special Area Start ***** -->
-	<section class="special-area bg-white section_padding_100" id="about">
-		<!-- Special Description Area -->
-		<div class="special_description_area ">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="special_description_img">
-							<img src="img/bg-img/special.png" alt="">
+	<div id="voicecoin">
+		<!-- ***** Header Area Start ***** -->
+		<header class="header_area animated">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<!-- Menu Area Start -->
+					<div class="col-12 col-lg-12">
+						<div class="menu_area">
+							<nav class="navbar navbar-expand-lg navbar-light">
+								<!-- Logo -->
+								<a class="navbar-brand" href="index.html">
+									<img src="img/core-img/logo.png" alt="Voicecoin">
+								</a>
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false"
+								    aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<!-- Menu Area -->
+								<div class="collapse navbar-collapse" id="ca-navbar">
+									<ul class="navbar-nav ml-auto" id="nav">
+										<li class="nav-item active">
+											<a class="nav-link" href="#home">{{vc[lang].header.home}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#team">{{vc[lang].header.team}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="http://contribute.voicecoin.com/" target="_blank">{{vc[lang].header.token}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="http://www.voiceweb.io/" target="_blank">{{vc[lang].header.found}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="http://www.voicecoin.net/" target="_blank">{{vc[lang].header.test}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="faq.html" target="_blank">{{vc[lang].header.faq}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" v-on:click="changeLang">{{vc[lang].header.lang}}</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
 						</div>
 					</div>
-					<div class="col-lg-6 col-xl-5 ml-xl-auto">
-						<div class="special_description_content">
-							<h2>Ask what you need</h2>
-							<p>Escape the screen and endless scrolling, get what you’re looking for by just ASKING.</p>
-							<p>By 2020, Morgan Stanley predicts 75 billion IoT devices will be connected. We are going to step into the post mobile
-								era, next generation internet is voice Internet. People will talk to the computer like the way we talk to people—minus
-								the sassiness!</p>
-							<div class="app-download-area">
-								<div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
-									<!-- Google Store Btn -->
-									<a href="http://www.voiceweb.io/" target="_blank">
-										Read More
-									</a>
-								</div>
-								<div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
-									<!-- Apple Store Btn -->
-									<a href="http://www.voicecoin.com/faq.html" target="_blank">
-										FAQ
-									</a>
+				</div>
+			</div>
+		</header>
+		<!-- ***** Header Area End ***** -->
+
+		<!-- ***** Wellcome Area Start ***** -->
+		<section class="wellcome_area clearfix" id="home">
+			<div class="container h-100" id="home-container">
+				<div class="row h-100 align-items-center">
+					<div class="col-12 col-md">
+						<div class="wellcome-heading">
+							<img src="img/core-img/logo-2.png" alt="">
+							<h2>VOICECOIN</h2>
+							<p>Voiceweb, voice-driven decentralized smart internet based on voicechain,
+								<br>an universal bridge between chatbot and IoT.
+								<br>Voicecoin is the money of Voiceweb. </p>
+						</div>
+						<div class="get-start-area">
+							<!-- Form Start -->
+							<form action="#" method="post" class="form-inline">
+								<!-- <input type="email" class="form-control email" placeholder="name@company.com"> -->
+								<input type="submit" class="submit" value="Buy Token">
+							</form>
+							<!-- Form End -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Welcome thumb -->
+			<div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+				<img src="img/bg-img/welcome-img.png" alt="VOICECOIN">
+			</div>
+			<canvas id="welcome-star">
+			</canvas>
+
+		</section>
+		<!-- ***** Wellcome Area End ***** -->
+
+		<!-- ***** Special Area Start ***** -->
+		<section class="special-area bg-white section_padding_100" id="about">
+			<!-- Special Description Area -->
+			<div class="special_description_area ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="special_description_img">
+								<img src="img/bg-img/special.png" alt="">
+							</div>
+						</div>
+						<div class="col-lg-6 col-xl-5 ml-xl-auto">
+							<div class="special_description_content">
+								<h2>Ask what you need</h2>
+								<p>Escape the screen and endless scrolling, get what you’re looking for by just ASKING.</p>
+								<p>By 2020, Morgan Stanley predicts 75 billion IoT devices will be connected. We are going to step into the post mobile
+									era, next generation internet is voice Internet. People will talk to the computer like the way we talk to people—minus
+									the sassiness!</p>
+								<div class="app-download-area">
+									<div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+										<!-- Google Store Btn -->
+										<a href="http://www.voiceweb.io/" target="_blank">
+											Read More
+										</a>
+									</div>
+									<div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+										<!-- Apple Store Btn -->
+										<a href="http://www.voicecoin.com/faq.html" target="_blank">
+											FAQ
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- ***** Special Area End ***** -->
+		</section>
+		<!-- ***** Special Area End ***** -->
 
-	<!-- ***** Video #1 Area Start ***** -->
-	<div class="video-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<!-- Video Area Start -->
-					<div class="video-area" style="background-image: url(img/bg-img/video-1.jpg);">
-						<div class="video-play-btn">
-							<a href="https://www.youtube.com/watch?v=k0w1Y2-sCLM" class="video_btn">
-								<i class="fa fa-play" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- ***** Video #1 Area End ***** -->
-
-	<!-- ***** Problem Start ***** -->
-	<section class="bg-white section_padding_100" id="problem">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<!-- Section Heading Area -->
-					<div class="section-heading text-center">
-						<h2>Current Problem</h2>
-						<div class="line-shape"></div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-1"></div>
-				<div class="col-10 wow text-center fadeInUp sub-title">
-					<h4>Google and Amazon are privatizing voice internet</h4>
-					<p>
-						A lot of companies are developing post mobile smart devices. Many companies are developing this market, and one such example
-						are smart speaker manufacturers. These manufacturers require chatbot developers to register their chatbots as skill
-						sets within the smart speakers. In this approach, chatbots must be registered on different smart speakers; therefore,
-						chatbot developers must learn and utilize different accessing protocols to have their chatbot installed. Every smart
-						device manufacturer requires the chatbot developers to register their chatbots and follow their specific standards
-						so that the chatbots can be browsed by their end users. Traditional WWW web is going to die in voice internet, people
-						will use less and less chance to input a domain name and URL address.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp problem-text" data-wow-delay="0.2s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-search.png" alt="hard to use">
-						</div>
-						<h4>Hard to use</h4>
-						<p>The current voice systems make it hard for users to find services</p>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp problem-text" data-wow-delay="0.4s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-voice-variety_1.png" alt="Lack of Variety">
-						</div>
-						<h4>Lack of Variety</h4>
-						<p>Manufacturers are not providing enough variety of voice enabled applications for current consumers</p>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp problem-text" data-wow-delay="0.6s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-lack-of-standard.png" alt="No Standard">
-						</div>
-						<h4>No Standard</h4>
-						<p>Current voice app stores have no common standard. It's difficult for developers to create their own voice applications
-							for these devices</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- ***** Problem End ***** -->
-
-	<!-- ***** Solution Start ***** -->
-	<section class="section_padding_50" id="solution">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<!-- Section Heading Area -->
-					<div class="section-heading text-center">
-						<h2>Our Solution</h2>
-						<div class="line-shape"></div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-1"></div>
-				<div class="col-10 wow text-center fadeInUp sub-title">
-					<h4>We propose a blockchain solution to underpin the voice-based Internet</h4>
-					<p>
-						Under this new system, chatbot developers will register voice domains on the blockchain, follow a set of simple instructions,
-						and then their chatbots will be launched. In this way, any global user will be able to talk to any registered chatbot.
-						Smart device manufacturers will no longer need to ask chatbot developers to register their chatbots. This solution
-						preserves developer resources, while giving users a more convenient way to surf an open, voice-based internet. As traditional
-						browser-based web sites evolve into chatbots, the traditional domain name system evolves into a decentralized voice
-						domain system, and cryptocurrency becomes the global standard for chatbot payments.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp solution-text" data-wow-delay="0.2s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-variety.png" alt="Awesome Experience">
-						</div>
-						<h4>Awesome Experience</h4>
-						<p>People can talk to a wide variety of unique voice chatbot</p>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp solution-text" data-wow-delay="0.4s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-one-stop-publishing.png" alt="Fast and Simple">
-						</div>
-						<h4>Fast and Simple</h4>
-						<p>Developers publish chatbot in one stop</p>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp solution-text" data-wow-delay="0.6s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-global-chatbot_1.png" alt="Customizability">
-						</div>
-						<h4>Customizability</h4>
-						<p>A global voice chatbot economy opens up</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- ***** Solution End ***** -->
-
-	<!-- ***** Schematic Area Start ***** -->
-	<section class="section_padding_50" id="solution">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<!-- Section Heading Area -->
-					<div class="section-heading text-center">
-						<h2>Schematic</h2>
-						<div class="line-shape"></div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-1"></div>
-				<div class="col-10 wow text-center fadeInUp sub-title">
-					<h4> </h4>
-					<p>Voiceweb is a blockchain platform for voice chatbot development and voicecoin is cryptocurrency for Voiceweb.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp step-text" data-wow-delay="0.2s">
-						<h1>&lt; 1 &gt;</h1>
-						<p>You can register your voice chatbot name on Voiceweb VNS and fill in chatbot URL address.</p>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp step-text" data-wow-delay="0.4s">
-						<h1>&lt; 2 &gt;</h1>
-						<p>You can use chatbot browser to find any chatbot by searching the chatbot name to access your favorite applications,
-							brands and skills with just your voice.</p>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp step-text" data-wow-delay="0.6s">
-						<h1>&lt; 3 &gt;</h1>
-						<p>The chatbot directory will be open, decentralized, and interconnected for easy development and access to your own chatbot
-							and others.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- ***** Video Area Start ***** -->
-		<div class="video-section wow fadeInUp">
+		<!-- ***** Video #1 Area Start ***** -->
+		<div class="video-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
 						<!-- Video Area Start -->
-						<div class="video-area" style="background-image: url(img/bg-img/video-4.jpg);">
+						<div class="video-area" style="background-image: url(img/bg-img/video-1.jpg);">
 							<div class="video-play-btn">
-								<a href="https://www.youtube.com/watch?v=aGrEQClR4Rc" class="video_btn">
+								<a href="https://www.youtube.com/watch?v=k0w1Y2-sCLM" class="video_btn">
 									<i class="fa fa-play" aria-hidden="true"></i>
 								</a>
 							</div>
@@ -369,660 +168,852 @@
 				</div>
 			</div>
 		</div>
-		<!-- ***** Video Area End ***** -->
-	</section>
-	<!-- ***** Schematic Area End *****====== -->
+		<!-- ***** Video #1 Area End ***** -->
 
-	<!-- ***** Awesome Features Start ***** -->
-	<section class="bg-white section_padding_50" id="feature">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<!-- Section Heading Area -->
-					<div class="section-heading text-center">
-						<h2>Voiceweb Blockchain Features</h2>
-						<div class="line-shape"></div>
+		<!-- ***** Problem Start ***** -->
+		<section class="bg-white section_padding_100" id="problem">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Section Heading Area -->
+						<div class="section-heading text-center">
+							<h2>Current Problem</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 wow text-center fadeInUp sub-title">
+						<h4>Google and Amazon are privatizing voice internet</h4>
+						<p>
+							A lot of companies are developing post mobile smart devices. Many companies are developing this market, and one such example
+							are smart speaker manufacturers. These manufacturers require chatbot developers to register their chatbots as skill
+							sets within the smart speakers. In this approach, chatbots must be registered on different smart speakers; therefore,
+							chatbot developers must learn and utilize different accessing protocols to have their chatbot installed. Every smart
+							device manufacturer requires the chatbot developers to register their chatbots and follow their specific standards
+							so that the chatbots can be browsed by their end users. Traditional WWW web is going to die in voice internet, people
+							will use less and less chance to input a domain name and URL address.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp problem-text" data-wow-delay="0.2s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-search.png" alt="hard to use">
+							</div>
+							<h4>Hard to use</h4>
+							<p>The current voice systems make it hard for users to find services</p>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp problem-text" data-wow-delay="0.4s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-voice-variety_1.png" alt="Lack of Variety">
+							</div>
+							<h4>Lack of Variety</h4>
+							<p>Manufacturers are not providing enough variety of voice enabled applications for current consumers</p>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp problem-text" data-wow-delay="0.6s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-lack-of-standard.png" alt="No Standard">
+							</div>
+							<h4>No Standard</h4>
+							<p>Current voice app stores have no common standard. It's difficult for developers to create their own voice applications
+								for these devices</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-decentralized.png" alt="Decentralization">
-						</div>
-						<h4>Decentralized Platform</h4>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-secure.png" alt="Secure Transactions">
-						</div>
-						<h4>Secure Transactions</h4>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-interconnected-synergy.png" alt="Interconnected Synergy">
-						</div>
-						<h4>Interconnected Synergy</h4>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-trusted-support.png" alt="Trusted Support">
-						</div>
-						<h4>Trusted Support</h4>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-world-wide.png" alt="World Wide Communication">
-						</div>
-						<h4>World Wide Communication</h4>
-					</div>
-				</div>
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-4">
-					<div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
-						<div class="single-icon">
-							<img src="img/icon-img/voicecoin-speed.png" alt="Fast Uptime">
-						</div>
-						<h4>Fast Uptime</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- ***** Awesome Features End ***** -->
+		</section>
+		<!-- ***** Problem End ***** -->
 
-	<!-- ***** Our Team Area Start ***** -->
-	<section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<!-- Heading Text  -->
-					<div class="section-heading">
-						<h2>Our Team</h2>
-						<div class="line-shape"></div>
+		<!-- ***** Solution Start ***** -->
+		<section class="section_padding_50" id="solution">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Section Heading Area -->
+						<div class="section-heading text-center">
+							<h2>Our Solution</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 wow text-center fadeInUp sub-title">
+						<h4>We propose a blockchain solution to underpin the voice-based Internet</h4>
+						<p>
+							Under this new system, chatbot developers will register voice domains on the blockchain, follow a set of simple instructions,
+							and then their chatbots will be launched. In this way, any global user will be able to talk to any registered chatbot.
+							Smart device manufacturers will no longer need to ask chatbot developers to register their chatbots. This solution
+							preserves developer resources, while giving users a more convenient way to surf an open, voice-based internet. As
+							traditional browser-based web sites evolve into chatbots, the traditional domain name system evolves into a decentralized
+							voice domain system, and cryptocurrency becomes the global standard for chatbot payments.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp solution-text" data-wow-delay="0.2s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-variety.png" alt="Awesome Experience">
+							</div>
+							<h4>Awesome Experience</h4>
+							<p>People can talk to a wide variety of unique voice chatbot</p>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp solution-text" data-wow-delay="0.4s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-one-stop-publishing.png" alt="Fast and Simple">
+							</div>
+							<h4>Fast and Simple</h4>
+							<p>Developers publish chatbot in one stop</p>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp solution-text" data-wow-delay="0.6s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-global-chatbot_1.png" alt="Customizability">
+							</div>
+							<h4>Customizability</h4>
+							<p>A global voice chatbot economy opens up</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="george-zhao" data-wow-delay="0.2s">
-						<div class="team-hover-effects" id="george-zhao-bio">
-							<div class="member-image team-hover-effects-img">
+		</section>
+		<!-- ***** Solution End ***** -->
+
+		<!-- ***** Schematic Area Start ***** -->
+		<section class="section_padding_50" id="solution">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Section Heading Area -->
+						<div class="section-heading text-center">
+							<h2>Schematic</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 wow text-center fadeInUp sub-title">
+						<h4> </h4>
+						<p>Voiceweb is a blockchain platform for voice chatbot development and voicecoin is cryptocurrency for Voiceweb.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp step-text" data-wow-delay="0.2s">
+							<h1>&lt; 1 &gt;</h1>
+							<p>You can register your voice chatbot name on Voiceweb VNS and fill in chatbot URL address.</p>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp step-text" data-wow-delay="0.4s">
+							<h1>&lt; 2 &gt;</h1>
+							<p>You can use chatbot browser to find any chatbot by searching the chatbot name to access your favorite applications,
+								brands and skills with just your voice.</p>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp step-text" data-wow-delay="0.6s">
+							<h1>&lt; 3 &gt;</h1>
+							<p>The chatbot directory will be open, decentralized, and interconnected for easy development and access to your own
+								chatbot and others.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ***** Video Area Start ***** -->
+			<div class="video-section wow fadeInUp">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<!-- Video Area Start -->
+							<div class="video-area" style="background-image: url(img/bg-img/video-4.jpg);">
+								<div class="video-play-btn">
+									<a href="https://www.youtube.com/watch?v=aGrEQClR4Rc" class="video_btn">
+										<i class="fa fa-play" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ***** Video Area End ***** -->
+		</section>
+		<!-- ***** Schematic Area End *****====== -->
+
+		<!-- ***** Awesome Features Start ***** -->
+		<section class="bg-white section_padding_50" id="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Section Heading Area -->
+						<div class="section-heading text-center">
+							<h2>Voiceweb Blockchain Features</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-decentralized.png" alt="Decentralization">
+							</div>
+							<h4>Decentralized Platform</h4>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-secure.png" alt="Secure Transactions">
+							</div>
+							<h4>Secure Transactions</h4>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-interconnected-synergy.png" alt="Interconnected Synergy">
+							</div>
+							<h4>Interconnected Synergy</h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-trusted-support.png" alt="Trusted Support">
+							</div>
+							<h4>Trusted Support</h4>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-world-wide.png" alt="World Wide Communication">
+							</div>
+							<h4>World Wide Communication</h4>
+						</div>
+					</div>
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-4">
+						<div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+							<div class="single-icon">
+								<img src="img/icon-img/voicecoin-speed.png" alt="Fast Uptime">
+							</div>
+							<h4>Fast Uptime</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Awesome Features End ***** -->
+
+		<!-- ***** Our Team Area Start ***** -->
+		<section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<!-- Heading Text  -->
+						<div class="section-heading">
+							<h2>Our Team</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="george-zhao" data-wow-delay="0.2s">
+							<div class="team-hover-effects" id="george-zhao-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/george-zhao-1.jpg" alt="George Zhao">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>George Zhao</h4>
+									<h5>Founder, CEO</h5>
+									<p>
+										A serial entrepreneur, George Zhao developed China's first email system named Kaili. Earlier in his career, George was in
+										charge of the certificates products of Shenda and the streaming media business of Youku, a subsidiary of Alibaba
+										Group. He also operated the earliest Chinese Q &amp; A community of technologies. One of his patents, as a result
+										of his startup in Shanghai was acquired by Tencent and he was reported by sina.com as the inventor mobile IM basic
+										technology and the creator of WeChat. He received his MBA from University of Illinois at Chicago, and studied artificial
+										intelligence and blockchain technology at Stanford University and UC Berkeley. After setting up the Voicebot artificial
+										intelligence platform, he founded Voiceweb based on blockchain technology in Silicon Valley.
+									</p>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/jianwenzhao/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/george-zhao-1.jpg" alt="George Zhao">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>George Zhao</h4>
-								<h5>Founder, CEO</h5>
-								<p>
-									A serial entrepreneur, George Zhao developed China's first email system named Kaili. Earlier in his career, George was in
-									charge of the certificates products of Shenda and the streaming media business of Youku, a subsidiary of Alibaba
-									Group. He also operated the earliest Chinese Q &amp; A community of technologies. One of his patents, as a result
-									of his startup in Shanghai was acquired by Tencent and he was reported by sina.com as the inventor mobile IM basic
-									technology and the creator of WeChat. He received his MBA from University of Illinois at Chicago, and studied artificial
-									intelligence and blockchain technology at Stanford University and UC Berkeley. After setting up the Voicebot artificial
-									intelligence platform, he founded Voiceweb based on blockchain technology in Silicon Valley.
-								</p>
+								<p>Founder, CEO</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/jianwenzhao/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/george-zhao-1.jpg" alt="George Zhao">
-						</div>
-						<div class="member-text">
-							<h4>George Zhao</h4>
-							<p>Founder, CEO</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="elaine-shao" data-wow-delay="0.4s">
-						<div class="team-hover-effects" id="elaine-shao-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="elaine-shao" data-wow-delay="0.4s">
+							<div class="team-hover-effects" id="elaine-shao-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/elaine-shao.jpg" alt="Elaine Shao">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Elaine Shao</h4>
+									<h5>CMO</h5>
+									<p>
+										Founder of California Angel and advertisement analyst who provided consulting services at Google. She was also the media
+										marketing Supervisor for Leo Burnett.
+									</p>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/elaine-shao-259a14161/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/elaine-shao.jpg" alt="Elaine Shao">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Elaine Shao</h4>
-								<h5>CMO</h5>
-								<p>
-									Founder of California Angel and advertisement analyst who provided consulting services at Google. She was also the media
-									marketing Supervisor for Leo Burnett.
-								</p>
+								<p>CMO</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/elaine-shao-259a14161/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/elaine-shao.jpg" alt="Elaine Shao">
-						</div>
-						<div class="member-text">
-							<h4>Elaine Shao</h4>
-							<p>CMO</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="yong-duan" data-wow-delay="0.6s">
-						<div class="team-hover-effects" id="yong-duan-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="yong-duan" data-wow-delay="0.6s">
+							<div class="team-hover-effects" id="yong-duan-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/yong-duan.jpg" alt="Yong Duan">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Yong Duan</h4>
+									<h5>Ai &amp; Big Data Scientist</h5>
+									<p>
+										Yong Duan is the big data expert of WiFi master key with 16 years of proficient experience in big data, business intelligence
+										(BI), data mining, machine learning and deep learning technology. After a couple of years of working for the domestic
+										pioneer data mining enterprise named Huayuan Data, he co-founded the Shuyun Co.,Ltd which is successfully obtained
+										the investment of the Sequoia capital A round and Alibaba C round and became its CTO.
+									</p>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/yong-duan.jpg" alt="Yong Duan">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Yong Duan</h4>
-								<h5>Ai &amp; Big Data Scientist</h5>
-								<p>
-									Yong Duan is the big data expert of WiFi master key with 16 years of proficient experience in big data, business intelligence
-									(BI), data mining, machine learning and deep learning technology. After a couple of years of working for the domestic
-									pioneer data mining enterprise named Huayuan Data, he co-founded the Shuyun Co.,Ltd which is successfully obtained
-									the investment of the Sequoia capital A round and Alibaba C round and became its CTO.
-								</p>
+								<p>Ai &amp; Big Data Scientist</p>
 							</div>
 						</div>
-						<div class="member-image">
-							<img src="img/team-img/yong-duan.jpg" alt="Yong Duan">
-						</div>
-						<div class="member-text">
-							<h4>Yong Duan</h4>
-							<p>Ai &amp; Big Data Scientist</p>
-						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="kyle-bao" data-wow-delay="0.8s">
-						<div class="team-hover-effects" id="kyle-bao-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="kyle-bao" data-wow-delay="0.8s">
+							<div class="team-hover-effects" id="kyle-bao-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/kyle-bao.jpg" alt="Kyle Bao">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Kyle Bao</h4>
+									<h5>Ph.D., Cryptologist</h5>
+									<p>
+										Designing next generation cryptogram standard for NIST. Master quantum proof cryptography.
+									</p>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/kyle-bao.jpg" alt="Kyle Bao">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Kyle Bao</h4>
-								<h5>Ph.D., Cryptologist</h5>
-								<p>
-									Designing next generation cryptogram standard for NIST. Master quantum proof cryptography.
-								</p>
+								<p>Ph.D., Cryptologist</p>
 							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/kyle-bao.jpg" alt="Kyle Bao">
-						</div>
-						<div class="member-text">
-							<h4>Kyle Bao</h4>
-							<p>Ph.D., Cryptologist</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="joyce-zhang" data-wow-delay="0.2s">
-						<div class="team-hover-effects" id="joyce-zhang-bio">
-							<div class="member-image team-hover-effects-img">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="joyce-zhang" data-wow-delay="0.2s">
+							<div class="team-hover-effects" id="joyce-zhang-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/joyce-zhang.jpg" alt="Joyce Zhang">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Joyce Zhang</h4>
+									<h5>CFO</h5>
+									<p>
+										Joyce Zhang is the president of the Alumni Association of Central University of Finance and Economics in Chicago with 20
+										years of professinal experience in finance, investment and business management. She is a certified public accountant
+										registered in China, a certified international internal auditor and a senior economic analyst.
+									</p>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/joyce-zhang-a0102092/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/joyce-zhang.jpg" alt="Joyce Zhang">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Joyce Zhang</h4>
-								<h5>CFO</h5>
-								<p>
-									Joyce Zhang is the president of the Alumni Association of Central University of Finance and Economics in Chicago with 20
-									years of professinal experience in finance, investment and business management. She is a certified public accountant
-									registered in China, a certified international internal auditor and a senior economic analyst.
-								</p>
+								<p>CFO</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/joyce-zhang-a0102092/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/joyce-zhang.jpg" alt="Joyce Zhang">
-						</div>
-						<div class="member-text">
-							<h4>Joyce Zhang</h4>
-							<p>CFO</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="craig-watts" data-wow-delay="0.4s">
-						<div class="team-hover-effects" id="craig-watts-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="craig-watts" data-wow-delay="0.4s">
+							<div class="team-hover-effects" id="craig-watts-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/craig-watts.jpg" alt="Craig Watts">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Craig Watts</h4>
+									<h5>CSO</h5>
+									<p>
+										Craig Watts is an expert on the Digital Marketing. He is not only the co-founder of Madhouse but also the general manager
+										of digital intelligence for GroupM (WPP). He holds a Ph.D. in Media Studies from Osaka University and an M.A. in
+										English from the University of Chicago.
+									</p>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/craig-watts-0703b/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/craig-watts.jpg" alt="Craig Watts">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Craig Watts</h4>
-								<h5>CSO</h5>
-								<p>
-									Craig Watts is an expert on the Digital Marketing. He is not only the co-founder of Madhouse but also the general manager
-									of digital intelligence for GroupM (WPP). He holds a Ph.D. in Media Studies from Osaka University and an M.A. in
-									English from the University of Chicago.
-								</p>
+								<p>CSO</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/craig-watts-0703b/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/craig-watts.jpg" alt="Craig Watts">
-						</div>
-						<div class="member-text">
-							<h4>Craig Watts</h4>
-							<p>CSO</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="terry-fogarty" data-wow-delay="0.6s">
-						<div class="team-hover-effects" id="terry-fogarty-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="terry-fogarty" data-wow-delay="0.6s">
+							<div class="team-hover-effects" id="terry-fogarty-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/terry-fogarty.jpg" alt="Terry Fogarty">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Terry Fogarty</h4>
+									<h5>Legal Counsel</h5>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/terrence-fogarty-219bb828/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/terry-fogarty.jpg" alt="Terry Fogarty">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Terry Fogarty</h4>
-								<h5>Legal Counsel</h5>
+								<p>Legal Counsel</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/terrence-fogarty-219bb828/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/terry-fogarty.jpg" alt="Terry Fogarty">
-						</div>
-						<div class="member-text">
-							<h4>Terry Fogarty</h4>
-							<p>Legal Counsel</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="chelsea-rustrum" data-wow-delay="0.8s">
-						<div class="team-hover-effects" id="chelsea-rustrum-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="chelsea-rustrum" data-wow-delay="0.8s">
+							<div class="team-hover-effects" id="chelsea-rustrum-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/chelsea-rustrum.jpg" alt="Chelsea Rustrum">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Chelsea Rustrum</h4>
+									<h5>Community Strategist</h5>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/chelsearustrum/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/chelsea-rustrum.jpg" alt="Chelsea Rustrum">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Chelsea Rustrum</h4>
-								<h5>Community Strategist</h5>
+								<p>Community Strategist</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/chelsearustrum/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/chelsea-rustrum.jpg" alt="Chelsea Rustrum">
-						</div>
-						<div class="member-text">
-							<h4>Chelsea Rustrum</h4>
-							<p>Community Strategist</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="david-passiak" data-wow-delay="0.2s">
-						<div class="team-hover-effects" id="david-passiak-bio">
-							<div class="member-image team-hover-effects-img">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="david-passiak" data-wow-delay="0.2s">
+							<div class="team-hover-effects" id="david-passiak-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/david-passiak.jpg" alt="David Passiak">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>David Passiak</h4>
+									<h5>Keynote Speaker, Innovator, Futurist</h5>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/dpassiak/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/david-passiak.jpg" alt="David Passiak">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>David Passiak</h4>
-								<h5>Keynote Speaker, Innovator, Futurist</h5>
+								<p>Keynote Speaker, Innovator, Futurist</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/dpassiak/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/david-passiak.jpg" alt="David Passiak">
-						</div>
-						<div class="member-text">
-							<h4>David Passiak</h4>
-							<p>Keynote Speaker, Innovator, Futurist</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="monette-stephens" data-wow-delay="0.4s">
-						<div class="team-hover-effects" id="monette-stephens-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="monette-stephens" data-wow-delay="0.4s">
+							<div class="team-hover-effects" id="monette-stephens-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/monette-stephens.jpg" alt="Monette Stephens">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Monette Stephens</h4>
+									<h5>Strategic Advisory</h5>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/monettestephens/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/monette-stephens.jpg" alt="Monette Stephens">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Monette Stephens</h4>
-								<h5>Strategic Advisory</h5>
+								<p>Strategic Advisory</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/monettestephens/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/monette-stephens.jpg" alt="Monette Stephens">
-						</div>
-						<div class="member-text">
-							<h4>Monette Stephens</h4>
-							<p>Strategic Advisory</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="amanda-rivera" data-wow-delay="0.6s">
-						<div class="team-hover-effects" id="amanda-rivera-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="amanda-rivera" data-wow-delay="0.6s">
+							<div class="team-hover-effects" id="amanda-rivera-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/amanda-rivera.jpg" alt="Amanda Rivera">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Amanda Rivera</h4>
+									<h5>Millennial Business Strategist</h5>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/amandacrivera/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/amanda-rivera.jpg" alt="Amanda Rivera">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Amanda Rivera</h4>
-								<h5>Millennial Business Strategist</h5>
-							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/amandacrivera/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
+								<p>Millennial Business Strategist</p>
 							</div>
 						</div>
-						<div class="member-image">
-							<img src="img/team-img/amanda-rivera.jpg" alt="Amanda Rivera">
-						</div>
-						<div class="member-text">
-							<h4>Amanda Rivera</h4>
-							<p>Millennial Business Strategist</p>
-						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<!-- New Position -->
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<!-- New Position -->
-				</div>
 			</div>
-		</div>
-	</section>
-	<!-- ***** Our Team Area End ***** -->
+		</section>
+		<!-- ***** Our Team Area End ***** -->
 
-	<!-- ***** Client Feedback Area Start ***** -->
-	<section class="clients-feedback-area bg-white section_padding_100 clearfix" id="engineer">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<!-- Heading Text  -->
-					<div class="section-heading">
-						<h2>Developer Community</h2>
-						<div class="line-shape"></div>
+		<!-- ***** Client Feedback Area Start ***** -->
+		<section class="clients-feedback-area bg-white section_padding_100 clearfix" id="engineer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<!-- Heading Text  -->
+						<div class="section-heading">
+							<h2>Developer Community</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center dev-item wow fadeInUp">
+					<div class="col-lg-2"> </div>
+					<div class="col-lg-2 dev-name">
+						<h4>Squall Zhao</h4>
+					</div>
+					<div class="col-lg-8 dev-bio">
+						<p>Blockchain, AI and microservice expert, 10 years C++ development experience.</p>
+					</div>
+				</div>
+				<div class="row justify-content-center dev-item wow fadeInUp">
+					<div class="col-lg-2"> </div>
+					<div class="col-lg-2 dev-name">
+						<h4>Gavin Zhang</h4>
+					</div>
+					<div class="col-lg-8 dev-bio">
+						<p>Working in Shanghai Futures Exchange, developed bidding system.</p>
+					</div>
+				</div>
+				<div class="row justify-content-center dev-item wow fadeInUp">
+					<div class="col-lg-2"> </div>
+					<div class="col-lg-2 dev-name">
+						<h4>Yoky Xu</h4>
+					</div>
+					<div class="col-lg-8 dev-bio">
+						<p>8+ years experience, game server developer, master real media development.</p>
+					</div>
+				</div>
+				<div class="row justify-content-center dev-item wow fadeInUp">
+					<div class="col-lg-2"> </div>
+					<div class="col-lg-2 dev-name">
+						<h4>Kevin Liu</h4>
+					</div>
+					<div class="col-lg-8 dev-bio">
+						<p>Client developer, also dedicated in developing large scale passport system.</p>
+					</div>
+				</div>
+				<div class="row justify-content-center dev-item wow fadeInUp">
+					<div class="col-lg-2"> </div>
+					<div class="col-lg-2 dev-name">
+						<h4>Eric Chan</h4>
+					</div>
+					<div class="col-lg-8 dev-bio">
+						<p>10+ years software development experience, Voice based chatbot platform developer.</p>
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-center dev-item wow fadeInUp">
-				<div class="col-lg-2"> </div>
-				<div class="col-lg-2 dev-name">
-					<h4>Squall Zhao</h4>
-				</div>
-				<div class="col-lg-8 dev-bio">
-					<p>Blockchain, AI and microservice expert, 10 years C++ development experience.</p>
-				</div>
-			</div>
-			<div class="row justify-content-center dev-item wow fadeInUp">
-				<div class="col-lg-2"> </div>
-				<div class="col-lg-2 dev-name">
-					<h4>Gavin Zhang</h4>
-				</div>
-				<div class="col-lg-8 dev-bio">
-					<p>Working in Shanghai Futures Exchange, developed bidding system.</p>
-				</div>
-			</div>
-			<div class="row justify-content-center dev-item wow fadeInUp">
-				<div class="col-lg-2"> </div>
-				<div class="col-lg-2 dev-name">
-					<h4>Yoky Xu</h4>
-				</div>
-				<div class="col-lg-8 dev-bio">
-					<p>8+ years experience, game server developer, master real media development.</p>
-				</div>
-			</div>
-			<div class="row justify-content-center dev-item wow fadeInUp">
-				<div class="col-lg-2"> </div>
-				<div class="col-lg-2 dev-name">
-					<h4>Kevin Liu</h4>
-				</div>
-				<div class="col-lg-8 dev-bio">
-					<p>Client developer, also dedicated in developing large scale passport system.</p>
-				</div>
-			</div>
-			<div class="row justify-content-center dev-item wow fadeInUp">
-				<div class="col-lg-2"> </div>
-				<div class="col-lg-2 dev-name">
-					<h4>Eric Chan</h4>
-				</div>
-				<div class="col-lg-8 dev-bio">
-					<p>10+ years software development experience, Voice based chatbot platform developer.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- ***** Client Feedback Area End ***** -->
+		</section>
+		<!-- ***** Client Feedback Area End ***** -->
 
-	<!-- ***** Advisor Area Start ***** -->
-	<section class="our-Team-area bg-white section_padding_100_50 clearfix" id="advisor">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<!-- Heading Text  -->
-					<div class="section-heading">
-						<h2>Advisors &amp; Angels</h2>
-						<div class="line-shape"></div>
+		<!-- ***** Advisor Area Start ***** -->
+		<section class="our-Team-area bg-white section_padding_100_50 clearfix" id="advisor">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<!-- Heading Text  -->
+						<div class="section-heading">
+							<h2>Advisors &amp; Angels</h2>
+							<div class="line-shape"></div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="ruxiong-li" data-wow-delay="0.2s">
-						<div class="team-hover-effects" id="ruxiong-li-bio">
-							<div class="member-image team-hover-effects-img">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="ruxiong-li" data-wow-delay="0.2s">
+							<div class="team-hover-effects" id="ruxiong-li-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/ruxiong-li.jpg" alt="Ruxiong Li">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Ruxiong Li</h4>
+									<h5>Startup Mentor</h5>
+									<p>
+										Startup Mentor,Founder of Federal Software, China’s biggest software circulation company; Executive Director of China software
+										industry association. Optics Valley Startup Cafe, Founder
+									</p>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/ruxiong-li.jpg" alt="Ruxiong Li">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Ruxiong Li</h4>
-								<h5>Startup Mentor</h5>
-								<p>
-									Startup Mentor,Founder of Federal Software, China’s biggest software circulation company; Executive Director of China software
-									industry association. Optics Valley Startup Cafe, Founder
-								</p>
+								<p>Startup Mentor</p>
 							</div>
 						</div>
-						<div class="member-image">
-							<img src="img/team-img/ruxiong-li.jpg" alt="Ruxiong Li">
-						</div>
-						<div class="member-text">
-							<h4>Ruxiong Li</h4>
-							<p>Startup Mentor</p>
-						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="bing-liu" data-wow-delay="0.4s">
-						<div class="team-hover-effects" id="bing-liu-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="bing-liu" data-wow-delay="0.4s">
+							<div class="team-hover-effects" id="bing-liu-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/bing-liu.jpg" alt="Bing Liu">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Bing Liu</h4>
+									<h5>AI Advisor</h5>
+									<p>
+										AI Advisor,Bing Liu is the professor of computer science who specializes in data mining, machine learning and natural language
+										processing. Two of his research papers published in KDD-1998 and KDD-2004 were received KDD Test-of-Time awards
+										in 2014 and 2015. In 2013, he was elected the chair of SIGKDD, ACM Special Interest Group on Knowledge Discovery
+										and Data Mining. Besides. he is an AI Scientis and the Fellow of IEEE.
+									</p>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.cs.uic.edu/~liub/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/bing-liu.jpg" alt="Bing Liu">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Bing Liu</h4>
-								<h5>AI Advisor</h5>
-								<p>
-									AI Advisor,Bing Liu is the professor of computer science who specializes in data mining, machine learning and natural language
-									processing. Two of his research papers published in KDD-1998 and KDD-2004 were received KDD Test-of-Time awards
-									in 2014 and 2015. In 2013, he was elected the chair of SIGKDD, ACM Special Interest Group on Knowledge Discovery
-									and Data Mining. Besides. he is an AI Scientis and the Fellow of IEEE.
-								</p>
+								<p>AI Advisor</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.cs.uic.edu/~liub/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/bing-liu.jpg" alt="Bing Liu">
-						</div>
-						<div class="member-text">
-							<h4>Bing Liu</h4>
-							<p>AI Advisor</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="pierre-he" data-wow-delay="0.6s">
-						<div class="team-hover-effects" id="pierre-he-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="pierre-he" data-wow-delay="0.6s">
+							<div class="team-hover-effects" id="pierre-he-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/pierre-he.jpg" alt="Pierre He">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Pierre He</h4>
+									<h5>Ph.D.</h5>
+									<p>
+										Co-founder of iex.ec. 100 Talent Professor at the CNIC ​ (Computer Network Information Center)​​
+									</p>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/pierre-he.jpg" alt="Pierre He">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Pierre He</h4>
-								<h5>Ph.D.</h5>
-								<p>
-									Co-founder of iex.ec. 100 Talent Professor at the CNIC ​ (Computer Network Information Center)​​
-								</p>
+								<p>Ph.D.</p>
 							</div>
 						</div>
-						<div class="member-image">
-							<img src="img/team-img/pierre-he.jpg" alt="Pierre He">
-						</div>
-						<div class="member-text">
-							<h4>Pierre He</h4>
-							<p>Ph.D.</p>
-						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="ken-huang" data-wow-delay="0.8s">
-						<div class="team-hover-effects" id="ken-huang-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="ken-huang" data-wow-delay="0.8s">
+							<div class="team-hover-effects" id="ken-huang-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/ken-huang.jpg" alt="Ken Huang">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Ken Huang</h4>
+									<h5>Blockchain Security Consultant</h5>
+									<p>
+										Blockchain Security Consultant Huawei VP, Chief Blockchain Scientist and Chief Identity Management System Architect, CISSP,
+										Commit Member of ACM, Chinese Electric Academy Blochchain Expert Committee Member.
+									</p>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/kenhuang8/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/ken-huang.jpg" alt="Ken Huang">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Ken Huang</h4>
-								<h5>Blockchain Security Consultant</h5>
-								<p>
-									Blockchain Security Consultant Huawei VP, Chief Blockchain Scientist and Chief Identity Management System Architect, CISSP,
-									Commit Member of ACM, Chinese Electric Academy Blochchain Expert Committee Member.
-								</p>
+								<p>Blockchain Security Consultant</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/kenhuang8/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/ken-huang.jpg" alt="Ken Huang">
-						</div>
-						<div class="member-text">
-							<h4>Ken Huang</h4>
-							<p>Blockchain Security Consultant</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="zong-ling" data-wow-delay="0.2s">
-						<div class="team-hover-effects" id="zong-ling-bio">
-							<div class="member-image team-hover-effects-img">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="zong-ling" data-wow-delay="0.2s">
+							<div class="team-hover-effects" id="zong-ling-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/zong-ling.jpg" alt="Zong Ling">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Zong Ling</h4>
+									<h5>Ph.D., Scientist in IBM</h5>
+									<p>
+										Senior Software Engineer / Scientist in IBM Software Group / Almaden Research Center. Over past 14 years, Dr. Ling has been
+										working on evaluating the performance of IBM Tivoli Storage Products and distributed clouding storage systems.
+									</p>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/lingzong/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/zong-ling.jpg" alt="Zong Ling">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Zong Ling</h4>
-								<h5>Ph.D., Scientist in IBM</h5>
-								<p>
-									Senior Software Engineer / Scientist in IBM Software Group / Almaden Research Center. Over past 14 years, Dr. Ling has been
-									working on evaluating the performance of IBM Tivoli Storage Products and distributed clouding storage systems.
-								</p>
+								<p>Ph.D., Scientist in IBM</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/lingzong/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/zong-ling.jpg" alt="Zong Ling">
-						</div>
-						<div class="member-text">
-							<h4>Zong Ling</h4>
-							<p>Ph.D., Scientist in IBM</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<div class="single-team-member wow fadeInUp" id="liren-chen" data-wow-delay="0.4s">
-						<div class="team-hover-effects" id="liren-chen-bio">
-							<div class="member-image team-hover-effects-img">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="single-team-member wow fadeInUp" id="liren-chen" data-wow-delay="0.4s">
+							<div class="team-hover-effects" id="liren-chen-bio">
+								<div class="member-image team-hover-effects-img">
+									<img src="img/team-img/liren-chen.jpg" alt="Liren Chen">
+								</div>
+								<div class="team-hover-effects-inner">
+									<h4>Liren Chen</h4>
+									<h5>SEO Expert</h5>
+									<p>
+										A former Googler, involved in multi-language search engines, and Google+ for 7 years. Led mobile search at Qihoo 360 and
+										the Pangu search engine. Graduate of Carnegie Mellon University.
+									</p>
+								</div>
+								<div class="team-social-icon">
+									<a href="https://www.linkedin.com/in/lirenc/" target="_blank">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+							<div class="member-image">
 								<img src="img/team-img/liren-chen.jpg" alt="Liren Chen">
 							</div>
-							<div class="team-hover-effects-inner">
+							<div class="member-text">
 								<h4>Liren Chen</h4>
-								<h5>SEO Expert</h5>
-								<p>
-									A former Googler, involved in multi-language search engines, and Google+ for 7 years. Led mobile search at Qihoo 360 and
-									the Pangu search engine. Graduate of Carnegie Mellon University.
-								</p>
+								<p>SEO Expert</p>
 							</div>
-							<div class="team-social-icon">
-								<a href="https://www.linkedin.com/in/lirenc/" target="_blank">
-									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-						<div class="member-image">
-							<img src="img/team-img/liren-chen.jpg" alt="Liren Chen">
-						</div>
-						<div class="member-text">
-							<h4>Liren Chen</h4>
-							<p>SEO Expert</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<!-- New Position -->
-				</div>
-				<div class="col-12 col-md-6 col-lg-3">
-					<!-- New Position -->
+					<div class="col-12 col-md-6 col-lg-3">
+						<!-- New Position -->
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<!-- New Position -->
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- ***** Advisor Area End ***** -->
+		</section>
+		<!-- ***** Advisor Area End ***** -->
 
-	<!-- ***** Partner Start ***** -->
-	<!--
+		<!-- ***** Partner Start ***** -->
+		<!--
 	<section class="bg-white section_padding_50" id="feature">
 		<div class="container">
 			<div class="row">
@@ -1126,75 +1117,74 @@
 		</div>
 	</section>
 -->
-	<!-- ***** Partner End ***** -->
+		<!-- ***** Partner End ***** -->
 
-	<!-- ***** Footer Area Start ***** -->
-	<footer class="footer-social-icon text-center section_padding_70 clearfix">
-		<!-- footer logo -->
-		<div class="footer-img">
-			<img src="img/core-img/logo-3.png" alt="Voicecoin" id="footer-logo">
-		</div>
-		<div class="footer-text">
-			<h3>VOICECOIN</h3>
-		</div>
-		<!-- social icon-->
-		<div class="footer-social-icon">
-			<a href="https://www.facebook.com/pg/Voicecoin-734082453452451" target="_blank">
-				<i class="fab fa-facebook-f" aria-hidden="true"></i>
-			</a>
-			<a href="https://twitter.com/voicecoin" target="_blank">
-				<i class="fab fa-twitter" aria-hidden="true"></i>
-			</a>
-			<a href="https://www.linkedin.com/company/voicecoin/" target="_blank">
-				<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-			</a>
-			<a href="https://github.com/voicecoin" target="_blank">
-				<i class="fab fa-github-alt" aria-hidden="true"></i>
-			</a>
-			<a href="https://t.me/voicecoin" target="_blank">
-				<i class="active fab fa-telegram-plane" aria-hidden="true"></i>
-			</a>
-			<a href="mailto:support@voicecoin.com" target="_blank">
-				<i class="far fa-envelope" aria-hidden="true"></i>
-			</a>
-			<a id="wechat">
-				<i class="fab fa-weixin" aria-hidden="true"></i>
-			</a>
-		</div>
-		<div class="footer-menu">
-			<nav>
-				<ul>
-					<li>
-						<a href="#">White Paper</a>
-					</li>
-					<li>
-						<a href="#">SAFT</a>
-					</li>
-					<li>
-						<a href="https://github.com/voicecoin" target="_blank">GitHub</a>
-					</li>
-					<li>
-						<a href="#">Contact</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<!-- Foooter Text-->
-		<div class="copyright-text">
-			<!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-			<p>Copyright ©2018
-				<a href="http://www.voiceweb.io/" target="_blank">Voiceweb Foundation</a>. All Rights Reserved.
-			</p>
-		</div>
-	</footer>
-	<!-- ***** Footer Area Start ***** -->
-
+		<!-- ***** Footer Area Start ***** -->
+		<footer class="footer-social-icon text-center section_padding_70 clearfix">
+			<!-- footer logo -->
+			<div class="footer-img">
+				<img src="img/core-img/logo-3.png" alt="Voicecoin" id="footer-logo">
+			</div>
+			<div class="footer-text">
+				<h3>VOICECOIN</h3>
+			</div>
+			<!-- social icon-->
+			<div class="footer-social-icon">
+				<a href="https://www.facebook.com/pg/Voicecoin-734082453452451" target="_blank">
+					<i class="fab fa-facebook-f" aria-hidden="true"></i>
+				</a>
+				<a href="https://twitter.com/voicecoin" target="_blank">
+					<i class="fab fa-twitter" aria-hidden="true"></i>
+				</a>
+				<a href="https://www.linkedin.com/company/voicecoin/" target="_blank">
+					<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+				</a>
+				<a href="https://github.com/voicecoin" target="_blank">
+					<i class="fab fa-github-alt" aria-hidden="true"></i>
+				</a>
+				<a href="https://t.me/voicecoin" target="_blank">
+					<i class="active fab fa-telegram-plane" aria-hidden="true"></i>
+				</a>
+				<a href="mailto:support@voicecoin.com" target="_blank">
+					<i class="far fa-envelope" aria-hidden="true"></i>
+				</a>
+				<a id="wechat">
+					<i class="fab fa-weixin" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="footer-menu">
+				<nav>
+					<ul>
+						<li>
+							<a href="#">White Paper</a>
+						</li>
+						<li>
+							<a href="#">SAFT</a>
+						</li>
+						<li>
+							<a href="https://github.com/voicecoin" target="_blank">GitHub</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- Foooter Text-->
+			<div class="copyright-text">
+				<!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+				<p>Copyright ©2018
+					<a href="http://www.voiceweb.io/" target="_blank">Voiceweb Foundation</a>. All Rights Reserved.
+				</p>
+			</div>
+		</footer>
+		<!-- ***** Footer Area Start ***** -->
+	</div>
 	<!-- Jquery-2.2.4 JS -->
 	<script src="js/jquery-2.2.4.min.js"></script>
 	<!-- Popper js -->
 	<script src="js/popper.min.js"></script>
-	<!-- development version, includes helpful console warnings -->
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 	<!-- Bootstrap-4 Beta JS -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- All Plugins JS -->
@@ -1207,8 +1197,12 @@
 	<script src="js/active.js"></script>
 	<!-- Device Detected JS -->
 	<script src="js/device.js"></script>
+	<!-- Vue js -->
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 	<!-- Custom JS -->
 	<script src="js/custom.js"></script>
+	<!-- I18 JS -->
+	<script src="js/i18.js"></script>
 </body>
 
 </html>
