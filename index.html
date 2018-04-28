@@ -63,7 +63,7 @@
 											<a class="nav-link" href="http://www.voicecoin.net/" target="_blank">{{vc[lang].header.test}}</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="faq.html" target="_blank">{{vc[lang].header.faq}}</a>
+											<a class="nav-link" href="http://www.voicecoin.com/faq.html" target="_blank">{{vc[lang].header.faq}}</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#" v-on:click="changeLang">{{vc[lang].header.lang}}</a>
@@ -120,27 +120,25 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="special_description_img">
-								<img src="img/bg-img/special.png" alt="">
+								<img src="img/bg-img/special.png" alt="Structure">
 							</div>
 						</div>
 						<div class="col-lg-6 col-xl-5 ml-xl-auto">
 							<div class="special_description_content">
-								<h2>Ask what you need</h2>
-								<p>Escape the screen and endless scrolling, get what you’re looking for by just ASKING.</p>
-								<p>By 2020, Morgan Stanley predicts 75 billion IoT devices will be connected. We are going to step into the post mobile
-									era, next generation internet is voice Internet. People will talk to the computer like the way we talk to people—minus
-									the sassiness!</p>
+								<h2>{{vc[lang].spe.h2}}</h2>
+								<p>{{vc[lang].spe.p1}}</p>
+								<p>{{vc[lang].spe.p2}}</p>
 								<div class="app-download-area">
 									<div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
 										<!-- Google Store Btn -->
 										<a href="http://www.voiceweb.io/" target="_blank">
-											Read More
+											{{vc[lang].spe.more}}
 										</a>
 									</div>
 									<div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
 										<!-- Apple Store Btn -->
 										<a href="http://www.voicecoin.com/faq.html" target="_blank">
-											FAQ
+											{{vc[lang].spe.faq}}
 										</a>
 									</div>
 								</div>
