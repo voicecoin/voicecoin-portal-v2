@@ -60,6 +60,11 @@ h6 {
 	line-height: 1.2;
 }
 
+#voicecoin {
+	width: 100%;
+	padding-bottom: 500px;
+}
+
 .section_padding_100 {
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -1351,7 +1356,8 @@ p {
 }
 
 .footer-social-icon {
-	margin-bottom: 30px;
+	width: 100%;
+	margin: 0 auto 30px auto;
 }
 
 .footer-menu {
@@ -1405,6 +1411,6 @@ canvas#welcome-star {
 	text-align: right;
 }
 
-.dev-name > h4 {
+.dev-name>h4 {
 	color: #5b32b4;
 }
