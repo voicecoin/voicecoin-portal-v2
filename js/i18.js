@@ -43,9 +43,9 @@ var app = new Vue({
 					lang: '中文'
 				},
 				wel: {
-					title: 'Voice Enabled World Wide Web',
-					sub1: 'Voiceweb, voice-driven decentralized smart internet based on voicechain,',
-					sub2: 'an universal bridge between chatbot and IoT.',
+					title: 'Welcome to Voiceweb\'s ICO portal',
+					sub1: 'We\'re building a voice-driven decentralized smart web based on voicechain,',
+					sub2: 'an universal bridge between AI chatbot and IoT.',
 					sub3: 'Voicecoin is the money of Voiceweb.',
 					buy: 'Buy Tokens',
 				},
@@ -273,9 +273,9 @@ var app = new Vue({
 					lang: 'ENG'
 				},
 				wel: {
-					title: '语音互联网',
-					sub1: '语音币，去中心化的语音万维网',
-					sub2: '机器人与物联网之间的桥梁',
+					title: '欢迎参与语音互联网ICO',
+					sub1: '我们正在建造语音驱动的去中心化万维网',
+					sub2: '智能语音机器人与物联网之间的桥梁',
 					sub3: '语音币是语音网络的通用货币',
 					buy: '购买语音币',
 				},
