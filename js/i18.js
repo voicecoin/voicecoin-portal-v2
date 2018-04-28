@@ -1,7 +1,7 @@
 var app = new Vue({
 	el: '#voicecoin',
 	data: {
-		lang: 'zh',
+		lang: 'en',
 		vc: {
 			en: {
 				header: {
@@ -102,6 +102,66 @@ var app = new Vue({
 						},
 					]
 				},
+				team: {
+					h2: 'Our Team',
+					i: [
+						{
+							h4:'George Zhao',
+							h5:'Founder, CEO',
+							p1:"A serial entrepreneur, George Zhao developed China's first email system named Kaili. Earlier in his career, George was in charge of the certificates products of Shenda and the streaming media business of Youku, a subsidiary of Alibaba Group. He also operated the earliest Chinese Q & A community of technologies. One of his patents, as a result of his startup in Shanghai was acquired by Tencent and he was reported by sina.com as the inventor mobile IM basic technology and the creator of WeChat. He received his MBA from University of Illinois at Chicago, and studied artificial intelligence and blockchain technology at Stanford University and UC Berkeley. After setting up the Voicebot artificial intelligence platform, he founded Voiceweb based on blockchain technology in Silicon Valley.",
+						},
+						{
+							h4:'Elaine Shao',
+							h5:'CMO',
+							p1:'Founder of California Angel and advertisement analyst who provided consulting services at Google. She was also the media marketing Supervisor for Leo Burnett.',
+						},
+						{
+							h4:'Yong Duan',
+							h5:'Ai & Big Data Scientist',
+							p1:'Yong Duan is the big data expert of WiFi master key with 16 years of proficient experience in big data, business intelligence(BI), data mining, machine learning and deep learning technology. After a couple of years of working for the domestic pioneer data mining enterprise named Huayuan Data, he co-founded the Shuyun Co.,Ltd which is successfully obtained the investment of the Sequoia capital A round and Alibaba C round and became its CTO.',
+						},
+						{
+							h4:'Kyle Bao',
+							h5:'Ph.D., Cryptologist',
+							p1:'Designing next generation cryptogram standard for NIST. Master quantum proof cryptography.',
+						},
+						{
+							h4:'Joyce Zhang',
+							h5:'CFO',
+							p1:'Joyce Zhang is the president of the Alumni Association of Central University of Finance and Economics in Chicago with 20 years of professinal experience in finance, investment and business management. She is a certified public accountant registered in China, a certified international internal auditor and a senior economic analyst.',
+						},
+						{
+							h4:'Craig Watts',
+							h5:'CSO',
+							p1:'Craig Watts is an expert on the Digital Marketing. He is not only the co-founder of Madhouse but also the general manager of digital intelligence for GroupM (WPP). He holds a Ph.D. in Media Studies from Osaka University and an M.A. in English from the University of Chicago.',
+						},
+						{
+							h4:'Terry Fogarty',
+							h5:'Legal Counsel',
+							p1:'',
+						},
+						{
+							h4:'Chelsea Rustrum',
+							h5:'Community Strategist',
+							p1:'',
+						},
+						{
+							h4:'David Passiak',
+							h5:'Keynote Speaker, Innovator, Futurist',
+							p1:'',
+						},
+						{
+							h4:'Monette Stephens',
+							h5:'Strategic Advisory',
+							p1:'',
+						},
+						{
+							h4:'Amanda Rivera',
+							h5:'Millennial Business Strategist',
+							p1:'',
+						},
+					]
+				},
 			},
 			zh: {
 				header: {
@@ -199,6 +259,66 @@ var app = new Vue({
 						},
 						{
 							h4: '快速且正常地运行',
+						},
+					]
+				},
+				team: {
+					h2: '核心团队',
+					i: [
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:'',
 						},
 					]
 				},
