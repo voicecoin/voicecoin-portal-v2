@@ -471,7 +471,7 @@ p {
 }
 
 .wellcome-heading>h2 {
-	font-size: 3rem;
+	font-size: 3.5rem;
 	color: #ffffff;
 	font-weight: 500;
 	position: relative;
@@ -587,7 +587,7 @@ p {
 
 .wellcome-heading>h2 {
 	display: inline-block;
-	line-height: 220px;
+	line-height: 6rem;
 }
 
 .wellcome-heading {

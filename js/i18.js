@@ -43,9 +43,9 @@ var app = new Vue({
 					lang: '中文'
 				},
 				wel: {
-					title: 'Welcome to Voiceweb\'s ICO portal',
-					sub1: 'We\'re building a voice-driven decentralized smart web based on voicechain,',
-					sub2: 'an universal bridge between AI chatbot and IoT.',
+					title: 'Welcome to Voiceweb\'s ICO',
+					sub1: 'We\'re building a voice-driven decentralized smart web based on voicechain.',
+					sub2: 'The universal bridge between AI chatbot and IoT.',
 					sub3: 'Voicecoin is the money of Voiceweb.',
 					buy: 'Buy Tokens',
 				},
