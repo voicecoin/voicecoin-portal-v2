@@ -85,16 +85,17 @@
 					<div class="col-12 col-md">
 						<div class="wellcome-heading">
 							<img src="img/core-img/logo-2.png" alt="">
-							<h2>VOICECOIN</h2>
-							<p>Voiceweb, voice-driven decentralized smart internet based on voicechain,
-								<br>an universal bridge between chatbot and IoT.
-								<br>Voicecoin is the money of Voiceweb. </p>
+							<h2>{{vc[lang].wel.title}}</h2>
+							<p>{{vc[lang].wel.sub1}}
+								<br>{{vc[lang].wel.sub2}}
+								<br>{{vc[lang].wel.sub3}}
+							</p>
 						</div>
 						<div class="get-start-area">
 							<!-- Form Start -->
 							<form action="#" method="post" class="form-inline">
 								<!-- <input type="email" class="form-control email" placeholder="name@company.com"> -->
-								<input type="submit" class="submit" value="Buy Token">
+								<input type="submit" class="submit" :value="vc[lang].wel.buy" readonly>
 							</form>
 							<!-- Form End -->
 						</div>
