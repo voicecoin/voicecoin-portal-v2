@@ -504,6 +504,12 @@ var app = new Vue({
 				this.lang = 'zh';
 				setCookie('vc-lang', 'zh', 30);
 			}
+		},
+		goAnchor(selector) {
+			var anchor = this.$el.querySelector(selector);
+			$('html, body').animate({
+				scrollTop: $(selector).offset().top
+			}, 1000);
 		}
 	}
 });
