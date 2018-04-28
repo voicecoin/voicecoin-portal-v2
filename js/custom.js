@@ -2,7 +2,7 @@ function componentDidMount() {
 	var canvas = document.getElementById("welcome-star"),
 		ctx = canvas.getContext('2d');
 	var height = $('#home').height();
-	canvas.width = window.innerWidth;
+	canvas.width = window.innerWidth - 30;
 	canvas.height = height;
 	var stars = [], // Array that contains the stars
 		FPS = 30, // Frames per second
