@@ -376,6 +376,7 @@ p {
 	border: 0;
 	background: none;
 	outline: none;
+	cursor: pointer;
 }
 
 .menu_area nav ul li>a:hover {
