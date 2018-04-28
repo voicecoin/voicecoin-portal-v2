@@ -2,7 +2,8 @@
 	.menu_area .navbar-brand {
 		font-size: 42px;
 	}
-	.menu_area #nav .nav-link {
+	.menu_area #nav .nav-link,
+	.menu_area #nav .nav-lang {
 		padding: 35px 7.5px;
 	}
 	.sing-up-button>a {
@@ -23,7 +24,11 @@
 	.app_screenshots_slides {
 		padding: 0 4%;
 	}
-	.header_area.sticky .menu_area #nav .nav-link {
+	.header_area.sticky .menu_area #nav .nav-link,
+	.header_area.sticky .menu_area #nav .nav-lang {
+		padding: 23px 7.5px;
+	}
+	.header_area.sticky .menu_area #nav .nav-lang {
 		padding: 23px 7.5px;
 	}
 	.wellcome-heading>img {
@@ -47,7 +52,9 @@
 		height: 50px;
 	}
 	.header_area .menu_area #nav .nav-link,
-	.header_area.sticky .menu_area #nav .nav-link {
+	.header_area .menu_area #nav .nav-lang,
+	.header_area.sticky .menu_area #nav .nav-link,
+	.header_area.sticky .menu_area #nav .nav-lang {
 		padding: 7.5px 15px;
 	}
 	#ca-navbar {
@@ -124,7 +131,8 @@
 		width: 90px !important;
 		height: 90px !important;
 	}
-	.dev-name, .dev-bio {
+	.dev-name,
+	.dev-bio {
 		text-align: center;
 	}
 }
@@ -140,7 +148,9 @@
 		height: 50px;
 	}
 	.header_area .menu_area #nav .nav-link,
-	.header_area.sticky .menu_area #nav .nav-link {
+	.header_area .menu_area #nav .nav-lang,
+	.header_area.sticky .menu_area #nav .nav-link,
+	.header_area.sticky .menu_area #nav .nav-lang {
 		padding: 5px 15px;
 	}
 	#ca-navbar {
@@ -261,7 +271,8 @@
 	.cool_facts_area .col-12:last-of-type .single-cool-fact {
 		margin-bottom: 0;
 	}
-	.dev-name, .dev-bio {
+	.dev-name,
+	.dev-bio {
 		text-align: center;
 	}
 }
@@ -291,7 +302,8 @@
 	.get-start-area .email {
 		max-width: 370px;
 	}
-	.dev-name, .dev-bio {
+	.dev-name,
+	.dev-bio {
 		text-align: center;
 	}
 }
@@ -307,7 +319,8 @@
 	.get-start-area .email {
 		margin-bottom: 0;
 	}
-	.dev-name, .dev-bio {
+	.dev-name,
+	.dev-bio {
 		text-align: center;
 	}
 }
@@ -332,7 +345,8 @@
 		margin-top: -30px;
 		max-height: 80px;
 	}
-	.dev-name, .dev-bio {
+	.dev-name,
+	.dev-bio {
 		text-align: center;
 	}
 }

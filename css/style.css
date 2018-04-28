@@ -359,7 +359,8 @@ p {
 	z-index: 2;
 }
 
-.menu_area #nav .nav-link {
+.menu_area #nav .nav-link,
+.menu_area #nav .nav-lang {
 	color: #fff;
 	display: block;
 	font-size: 16px;
@@ -369,6 +370,12 @@ p {
 	-o-transition-duration: 500ms;
 	transition-duration: 500ms;
 	padding: 35px 15px;
+}
+
+.menu_area #nav .nav-lang {
+	border: 0;
+	background: none;
+	outline: none;
 }
 
 .menu_area nav ul li>a:hover {
@@ -416,7 +423,8 @@ p {
 	font-size: 50px;
 }
 
-.header_area.sticky .menu_area #nav .nav-link {
+.header_area.sticky .menu_area #nav .nav-link,
+.header_area.sticky .menu_area #nav .nav-lang {
 	padding: 23px 15px;
 }
 

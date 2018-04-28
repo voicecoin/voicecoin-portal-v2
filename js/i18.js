@@ -132,8 +132,9 @@ var app = new Vue({
 		}
 	},
 	methods: {
-		changeLang: function (event) {
-			if (this.lang == 'zh') {
+		changeLang: function (e) {
+			e.stopPropagation();
+			if (this.lang === 'zh') {
 				this.lang = 'en';
 			} else {
 				this.lang = 'zh';
