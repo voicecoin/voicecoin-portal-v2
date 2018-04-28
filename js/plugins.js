@@ -57,7 +57,7 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
  *   scrollSpeed: 750
  * });
  */
-/*
+
 ;(function($, window, document, undefined){
 
 	// our plugin constructor
@@ -262,7 +262,6 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
 	};
 
 })( jQuery, window , document );
-*/
 
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
