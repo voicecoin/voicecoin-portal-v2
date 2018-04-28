@@ -187,6 +187,41 @@ var app = new Vue({
 						},
 					]
 				},
+				aa: {
+					h2: 'Advisors & Angels',
+					i: [
+						{
+							h4:'Ruxiong Li',
+							h5:'Startup Mentor',
+							p1:"Startup Mentor,Founder of Federal Software, China’s biggest software circulation company; Executive Director of China software industry association. Optics Valley Startup Cafe, Founder",
+						},
+						{
+							h4:'Bing Liu',
+							h5:'AI Advisor',
+							p1:"AI Advisor,Bing Liu is the professor of computer science who specializes in data mining, machine learning and natural language processing. Two of his research papers published in KDD-1998 and KDD-2004 were received KDD Test-of-Time awards in 2014 and 2015. In 2013, he was elected the chair of SIGKDD, ACM Special Interest Group on Knowledge Discovery and Data Mining. Besides. he is an AI Scientis and the Fellow of IEEE.",
+						},
+						{
+							h4:'Pierre He',
+							h5:'Ph.D.',
+							p1:"Co-founder of iex.ec. 100 Talent Professor at the CNIC ​ (Computer Network Information Center)​​",
+						},
+						{
+							h4:'Ken Huang',
+							h5:'Blockchain Security Consultant',
+							p1:"Blockchain Security Consultant Huawei VP, Chief Blockchain Scientist and Chief Identity Management System Architect, CISSP, Commit Member of ACM, Chinese Electric Academy Blochchain Expert Committee Member.",
+						},
+						{
+							h4:'Zong Ling',
+							h5:'Ph.D., Scientist in IBM',
+							p1:"Senior Software Engineer / Scientist in IBM Software Group / Almaden Research Center. Over past 14 years, Dr. Ling has been working on evaluating the performance of IBM Tivoli Storage Products and distributed clouding storage systems.",
+						},
+						{
+							h4:'Liren Chen',
+							h5:'SEO Expert',
+							p1:"A former Googler, involved in multi-language search engines, and Google+ for 7 years. Led mobile search at Qihoo 360 and the Pangu search engine. Graduate of Carnegie Mellon University.",
+						},
+					],
+				},
 			},
 			zh: {
 				header: {
@@ -371,6 +406,41 @@ var app = new Vue({
 							p:'基于语音的聊天平台开发者，10年软件开发经验',
 						},
 					]
+				},
+				aa: {
+					h2: '顾问 & 天使投资人',
+					i: [
+						{
+							h4:'',
+							h5:'',
+							p1:"",
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:"",
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:"",
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:"",
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:"",
+						},
+						{
+							h4:'',
+							h5:'',
+							p1:"",
+						},
+					],
 				},
 			}
 		}
