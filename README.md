@@ -1,2 +1,2 @@
-# web-voicecoin-new
-new voicecoin.com
+# voicecoin-portal-v2
+Voiceweb web portal
