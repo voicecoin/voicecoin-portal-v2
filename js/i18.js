@@ -64,7 +64,22 @@ var app = new Vue({
 							p: 'A global voice chatbot economy opens up',
 						},
 					]
-				}
+				},
+				sch: {
+					h2: 'Schematic',
+					h4: '',
+					p1: 'Voiceweb is a blockchain platform for voice chatbot development and voicecoin is cryptocurrency for Voiceweb.',
+					i: [{
+							p: 'You can register your voice chatbot name on Voiceweb VNS and fill in chatbot URL address.',
+						},
+						{
+							p: 'You can use chatbot browser to find any chatbot by searching the chatbot name to access your favorite applications, brands and skills with just your voice.',
+						},
+						{
+							p: 'The chatbot directory will be open, decentralized, and interconnected for easy development and access to your own chatbot and others.',
+						},
+					]
+				},
 			},
 			zh: {
 				header: {
@@ -127,7 +142,22 @@ var app = new Vue({
 							p: '全球开启人工智能新经济',
 						},
 					]
-				}
+				},
+				sch: {
+					h2: '工作原理',
+					h4: '语音网络区块链如何工作？',
+					p1: '语音链是语音万维网上连接所有语音对话服务的基础共链，语音币是语音网络的加密货币。',
+					i: [{
+							p: '您可以在语音网络上注册聊天机器人的全球唯一域名，在这里，唯您独尊。',
+						},
+						{
+							p: '使用语音浏览器呼叫语音服务助理 – 只用语音访问您最喜爱的应用、品牌和功能。',
+						},
+						{
+							p: '语音服务全球开放、高度互联，声声有力，尽情享受在语音万维网冲浪的酣畅体验吧！',
+						},
+					]
+				},
 			}
 		}
 	},
