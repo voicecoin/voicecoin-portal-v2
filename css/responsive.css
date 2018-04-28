@@ -174,7 +174,7 @@
 		margin: 0 auto;
 	}
 	.wellcome-heading>h2 {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 		text-align: center;
 		line-height: 80px;
 		display: block;
@@ -193,8 +193,8 @@
 	}
 	.welcome-thumb {
 		width: 90%;
-		bottom: -74px;
-		right: 0;
+		top: 28rem;
+		left: 6rem;
 	}
 	.logo_area>a>h2 {
 		font-size: 40px;
@@ -262,7 +262,7 @@
 		left: -1px;
 	}
 	.wellcome-heading {
-		margin-top: -180px;
+		margin-top: -20rem;
 	}
 	.single-cool-fact {
 		margin-bottom: 50px;
