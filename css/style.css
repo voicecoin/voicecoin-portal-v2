@@ -506,6 +506,34 @@ p {
 	opacity: 1;
 }
 
+.get-start-area a {
+	background-color: #fb397d;
+	color: #fff;
+	font-weight: 500;
+	display: inline-block;
+	border: none;
+	height: 50px;
+	min-width: 167px;
+	line-height: 46px;
+	text-align: center;
+	border-radius: 24px 24px 24px 0px;
+	margin-left: 10px;
+}
+
+.get-start-area a:focus {
+	border: none;
+	outline-offset: transparent !important;
+	border-radius: 30px;
+}
+
+.get-start-area a:hover {
+	background: #6f52e5;
+	color: #fff;
+	-webkit-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
+}
+
 .get-start-area .email:focus {
 	border: none;
 	outline-offset: transparent !important;
