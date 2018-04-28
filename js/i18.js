@@ -57,7 +57,7 @@ var app = new Vue({
 					faq: 'FAQ'
 				},
 				prblm: {
-					h2: 'Current Problem',
+					h2: 'Pain Points',
 					h4: 'Google and Amazon are privatizing voice internet',
 					p1: 'A lot of companies are developing post mobile smart devices. Many companies are developing this market, and one such example	are smart speaker manufacturers. These manufacturers require chatbot developers to register their chatbots as skill sets within the smart speakers. In this approach, chatbots must be registered on different smart speakers; therefore, chatbot developers must learn and utilize different accessing protocols to have their chatbot installed. Every smart device manufacturer requires the chatbot developers to register their chatbots and follow their specific standards so that the chatbots can be browsed by their end users. Traditional WWW web is going to die in voice internet, people will use less and less chance to input a domain name and URL address.',
 					p2: '',
@@ -287,7 +287,7 @@ var app = new Vue({
 					h2: '当前痛点',
 					h4: '谷歌和亚马逊正在私有化语音网络',
 					p1: '许多公司正在开发后手机时代的智能设备，典型案例就是各种智能音箱制造商。这些制造商要求语音服务开发者将他们的语音服务作为技能注册到智能音箱中。这种方式的语音服务必须被指定注册于不同的智能音箱上，所以语音服务的开发者不得不学习并使用不同的协议来开发。在一定程度上，也大大束缚并局限了用户方的自由使用。而且每个智能设备制造商都要求语音开发者注册他们的语音服务并遵循特定标准，捆绑式的语音服务只限于他们的最终用户使用，而未真正考虑如何更方便广大用户的利益，给用户带来诸多选择上的不便。 如此一来，智能音箱用户找服务难，智能音箱生产商又很难在音箱里集成丰富的服务。',
-					p2: '  基于种种设限的被控制，语音网打破了传统万维网的局限，人们会很大幅度的降低输入域名和网址的次数。新一代语音网的创新则为被控无奈而生，零设限，为世人开拓无限多的自由空间。',
+					p2: '不同于大公司的种种设限，语音网打破了传统万维网的局限，人们会很大幅度的降低输入域名和网址的次数。新一代创新语音网的为打破限制而生，零设限，为世人开拓无限多的自由空间。',
 					i: [{
 							h4: '功能繁琐',
 							p: '目前的语音系统让用户很难找到想要的服务',
