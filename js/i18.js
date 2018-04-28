@@ -162,6 +162,31 @@ var app = new Vue({
 						},
 					]
 				},
+				dev: {
+					h2:'Developer Community',
+					i: [
+						{
+							h4:'Squall Zhao',
+							p:'Blockchain, AI and microservice expert, 10 years C++ development experience.',
+						},
+						{
+							h4:'Gavin Zhang',
+							p:'Working in Shanghai Futures Exchange, developed bidding system.',
+						},
+						{
+							h4:'Yoky Xu',
+							p:'8+ years experience, game server developer, master real media development.',
+						},
+						{
+							h4:'Kevin Liu',
+							p:'Client developer, also dedicated in developing large scale passport system.',
+						},
+						{
+							h4:'Eric Chan',
+							p:'10+ years software development experience, Voice based chatbot platform developer.',
+						},
+					]
+				},
 			},
 			zh: {
 				header: {
@@ -319,6 +344,31 @@ var app = new Vue({
 							h4:'',
 							h5:'',
 							p1:'',
+						},
+					]
+				},
+				dev: {
+					h2:'',
+					i: [
+						{
+							h4:'',
+							p:'',
+						},
+						{
+							h4:'',
+							p:'',
+						},
+						{
+							h4:'',
+							p:'',
+						},
+						{
+							h4:'',
+							p:'',
+						},
+						{
+							h4:'',
+							p:'',
 						},
 					]
 				},
