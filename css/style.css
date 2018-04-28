@@ -1411,8 +1411,9 @@ canvas#welcome-star {
 	z-index: -1;
 }
 
-#solution {
-	background-color: #f5f9fc;
+#solution,
+#engineer {
+	background-color: #f5f9fc !important;
 }
 
 .sub-title>h4 {
