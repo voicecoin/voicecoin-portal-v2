@@ -146,7 +146,9 @@
     $window.on('load', function () {
         $('#preloader').fadeOut('slow', function () {
             $(this).remove();
-        });
+		});
+		document.getElementById("video-1").load();
+		document.getElementById("video-2").load();
     });
 
 })(jQuery);
