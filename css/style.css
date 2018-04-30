@@ -63,6 +63,7 @@ h6 {
 #voicecoin {
 	width: 100%;
 	margin-bottom: 500px;
+	overflow: hidden;
 }
 
 .section_padding_100 {
@@ -463,6 +464,7 @@ p {
 	bottom: -130px;
 	right: 85px;
 	z-index: 9;
+	overflow: hidden;
 }
 
 .welcome-thumb img {
