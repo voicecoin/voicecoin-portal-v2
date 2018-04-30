@@ -1451,3 +1451,16 @@ canvas#welcome-star {
 .dev-name>h4 {
 	color: #5b32b4;
 }
+
+/* remove video download button */
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
