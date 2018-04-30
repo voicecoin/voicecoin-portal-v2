@@ -150,12 +150,13 @@
 				<div class="row">
 					<div class="col-12">
 						<!-- Video Area Start -->
-						<div class="video-area" style="background-image: url(img/bg-img/video-1.jpg);">
-							<div class="video-play-btn">
-								<a href="https://www.youtube.com/watch?v=k0w1Y2-sCLM" class="video_btn">
-									<i class="fa fa-play" aria-hidden="true"></i>
-								</a>
-							</div>
+						<div class="video-area">
+							<video poster="img/bg-img/video-1.jpg" width="100%" height="auto" controls class="video">
+								<source src="video/video-1.mp4" type="video/mp4">
+								<source src="movie.ogg" type="video/ogg">
+								<iframe width="100%" height="auto" src="https://www.youtube.com/embed/k0w1Y2-sCLM" frameborder="0" allow="autoplay; encrypted-media"
+								    allowfullscreen></iframe>
+							</video>
 						</div>
 					</div>
 				</div>
@@ -360,10 +361,10 @@
 					</div>
 				</div>
 				<div class="row">
-				<!-- Single Special Area -->
-				<div class="col-12 col-md-6">
+					<!-- Single Special Area -->
+					<div class="col-12 col-md-6">
 						<div class="single-special text-center wow fadeInUp step-text" data-wow-delay="0.4s">
-							<img src="img/bg-img/architecture.svg"/>
+							<img src="img/bg-img/architecture.svg" />
 						</div>
 					</div>
 					<!-- Single Special Area -->

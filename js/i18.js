@@ -510,6 +510,6 @@ var app = new Vue({
 			$('html, body').animate({
 				scrollTop: $(selector).offset().top
 			}, 1000);
-		}
+		},
 	}
 });

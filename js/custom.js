@@ -317,4 +317,6 @@ $(document).ready(function () {
 			$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
 		}
 	});
+
+	$('.video').click(function(){this.paused?this.play():this.pause();});
 });
