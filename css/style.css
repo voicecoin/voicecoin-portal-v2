@@ -64,6 +64,7 @@ h6 {
 	width: 100%;
 	margin-bottom: 500px;
 	overflow: hidden;
+	padding-bottom: 10px;
 }
 
 .section_padding_100 {
@@ -1464,3 +1465,4 @@ video::-webkit-media-controls-enclosure {
 video::-webkit-media-controls-panel {
     width: calc(100% + 30px); /* Adjust as needed */
 }
+
