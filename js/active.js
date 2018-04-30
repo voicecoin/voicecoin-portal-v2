@@ -147,7 +147,9 @@
         $('#preloader').fadeOut('slow', function () {
             $(this).remove();
 		});
+		document.getElementById("video-1").src = "https://endaye.github.io/web-voicecoin-new/video/video-1.mp4";
 		document.getElementById("video-1").load();
+		document.getElementById("video-2").src = "https://endaye.github.io/web-voicecoin-new/video/video-2.mp4";
 		document.getElementById("video-2").load();
     });
 
