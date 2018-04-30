@@ -95,8 +95,8 @@ var app = new Vue({
 					]
 				},
 				sch: {
-					h2: 'Schematic',
-					h4: '',
+					h2: 'Semantic VNS Resolving',
+					h4: 'How does voiceweb blockchain work?',
 					p1: 'Voiceweb is a blockchain platform for voice chatbot development and voicecoin is cryptocurrency for Voiceweb.',
 					i: [{
 							p: 'You can register your voice chatbot name on Voiceweb VNS and fill in chatbot URL address.',
