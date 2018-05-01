@@ -68,7 +68,7 @@
 	}
 	.welcome-thumb {
 		width: 50%;
-		bottom: -100px;
+		bottom: -0;
 		right: 0;
 	}
 	.wellcome-heading {
@@ -193,8 +193,8 @@
 	}
 	.welcome-thumb {
 		width: 90%;
-		top: 28rem;
-		left: 6rem;
+		/* top: 28rem;
+		left: 6rem; */
 	}
 	.logo_area>a>h2 {
 		font-size: 40px;
@@ -312,8 +312,8 @@
 		font-size: 286px;
 	}
 	.welcome-thumb {
-		bottom: -109px;
-		width: 75%;
+		bottom: 10px;
+		width: 45%;
 	}
 	.get-start-area .email {
 		margin-bottom: 0;
@@ -347,5 +347,14 @@
 	.dev-name,
 	.dev-bio {
 		text-align: center;
+	}
+
+	.welcome-thumb {
+		width: 80%;
+		position: absolute;
+		bottom: 50px;
+		right: 10%;
+		z-index: 0;
+		overflow: hidden;
 	}
 }
