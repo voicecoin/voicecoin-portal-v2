@@ -311,6 +311,9 @@
 	.dev-bio {
 		text-align: center;
 	}
+	footer {
+		position: static !important;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -326,7 +329,10 @@
 	}
 	.dev-name,
 	.dev-bio {
-		text-align: center;
+		text-align: center; 
+	}
+	footer {
+		position: static !important;
 	}
 }
 
@@ -354,7 +360,6 @@
 	.dev-bio {
 		text-align: center;
 	}
-
 	.welcome-thumb {
 		width: 80%;
 		position: absolute;
@@ -362,5 +367,8 @@
 		right: 10%;
 		z-index: 0;
 		overflow: hidden;
+	}
+	footer {
+		position: static !important;
 	}
 }
