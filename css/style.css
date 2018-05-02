@@ -466,6 +466,7 @@ p {
 	right: 85px;
 	z-index: 0;
 	overflow: hidden;
+	opacity: 0.5;
 }
 
 .welcome-thumb img {

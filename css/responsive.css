@@ -192,7 +192,8 @@
 		max-width: 100%;
 	}
 	.welcome-thumb {
-		width: 90%;
+		width: 60%;
+		right:0;
 		/* top: 28rem;
 		left: 6rem; */
 	}
