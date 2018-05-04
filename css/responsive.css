@@ -1,3 +1,9 @@
+@media (min-width: 1200px) {
+	.single-icon>img {
+		height: 100px;
+	}
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
 	.menu_area .navbar-brand {
 		font-size: 42px;
@@ -68,7 +74,7 @@
 	}
 	.welcome-thumb {
 		width: 50%;
-		bottom: -0;
+		bottom: -100px;
 		right: 0;
 	}
 	.wellcome-heading {
@@ -193,8 +199,8 @@
 	}
 	.welcome-thumb {
 		width: 90%;
-		/* top: 28rem;
-		left: 6rem; */
+		top: 28rem;
+		left: 6rem;
 	}
 	.logo_area>a>h2 {
 		font-size: 40px;
@@ -305,6 +311,10 @@
 	.dev-bio {
 		text-align: center;
 	}
+	footer {
+		position: static !important;
+	}
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -312,8 +322,8 @@
 		font-size: 286px;
 	}
 	.welcome-thumb {
-		bottom: 10px;
-		width: 45%;
+		bottom: -109px;
+		width: 75%;
 	}
 	.get-start-area .email {
 		margin-bottom: 0;
@@ -347,14 +357,5 @@
 	.dev-name,
 	.dev-bio {
 		text-align: center;
-	}
-
-	.welcome-thumb {
-		width: 80%;
-		position: absolute;
-		bottom: 50px;
-		right: 10%;
-		z-index: 0;
-		overflow: hidden;
 	}
 }
