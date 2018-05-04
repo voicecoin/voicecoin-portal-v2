@@ -246,6 +246,16 @@ var app = new Vue({
 							h5: 'SEO Expert',
 							p1: "A former Googler, involved in multi-language search engines, and Google+ for 7 years. Led mobile search at Qihoo 360 and the Pangu search engine. Graduate of Carnegie Mellon University.",
 						},
+						{
+							h4: 'Deming Cha',
+							h5: 'ChinaRun Venture Capital Managing Partner',
+							p1: "With more than 20 years of experience in private equity venture capital and high-tech enterprises, in the Greater China region and North America. He served as the largest private investment institutions - China Minsheng Investment Group (CMIG) International Division as Managing Director. He has been vice president of a world-class enterprise software - SAP, and as General Manager of Greater China region for many European and US technology companies and also Inventec as head of software & services business unit.",
+						},
+						{
+							h4: 'Mingshun Li',
+							h5: 'CEO of GOODCHAIN INC.',
+							p1: "",
+						},
 					],
 				},
 				partners: {
@@ -475,6 +485,16 @@ var app = new Vue({
 							h4: '陈利人',
 							h5: '搜索引擎顾问',
 							p1: "前 Google 员工，在 Google+ 和多语言搜索引擎领域有 7 年工作经验。领导移动搜索奇虎360和盘古搜索引擎。卡内基梅隆大学毕业。",
+						},
+						{
+							h4: '车德明',
+							h5: '犇远资本 管理合伙人',
+							p1: "在大中华区和北美地区拥有二十多年的私募创投和高科技企业从业经验，投资方向：高科技，医疗健康，消费零售，现代农业，文化创意等多个行业。目前配合地方政府及上市企业合作设立产业发展母基金和管理特色小镇PPP专项基金；在加入犇远资本之前，车总曾任中国最大民营投资机构-中民投国际董事总经理，负责海外投资，跨境并购；犇远资本管理合伙人负责创新创业投资私募基金管理多年；也做过世界级企业软件-SAP 副总裁， 及欧美科技公司大中华区总经理和英业达公司软件服务事业部总经理。16年的私募基金管理9个基金资本近美金30亿，平均IRR超过20%，在他带领下外商企业近几年也一直保持两位数字的销售强劲增长。",
+						},
+						{
+							h4: '李明顺',
+							h5: '好贷网创始人兼总裁',
+							p1: "互联网从业13年，中国互联网发展的见证者、参与者、缔造者。资深互联网从业者和创业者，互联网金融千人会（IFC1000）的执委、发起人，拥有15年互联网经验，于2013年3月创立贷款第一搜索平台好贷网。作为互联网老兵，李明顺在创办好贷网之前，曾创办聚淘网、财猫浏览器；在此之前，曾担任康盛公司副总裁，中国最大的社区平台Discuz!的联合创始人，并带领公司于2010年以近5000万美元被腾讯全资收购。在2004年创办中国最早的广告交易平台，并担任公司总裁。在更早之前，曾在网易、CBSi等互联网公司担任过核心骨干和主管职务，是中国互联网协会的顾问和北京大学、上海交大等多所知名高校的创业导师。",
 						},
 					],
 				},

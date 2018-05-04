@@ -313,6 +313,28 @@ function hoverBio(name) {
 				hoverBio();
 			}
 		});
+		$('#deming-cha').bind({
+			click: function () {
+				clickBio(this.id);
+			},
+			mouseenter: function () {
+				hoverBio(this.id);
+			},
+			mouseleave: function () {
+				hoverBio();
+			}
+		});
+		$('#mingshun-li').bind({
+			click: function () {
+				clickBio(this.id);
+			},
+			mouseenter: function () {
+				hoverBio(this.id);
+			},
+			mouseleave: function () {
+				hoverBio();
+			}
+		});
 
 		$('#wechat').bind({
 			click: function () {
