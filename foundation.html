@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Title -->
+	<title>Voiceweb Foundation</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="favicon.ico">
+
+	<!-- Core Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Responsive CSS -->
+	<link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div id="voicecoin">
+		<!-- ***** Header Area Start ***** -->
+		<header class="header_area animated">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<!-- Menu Area Start -->
+					<div class="col-12 col-lg-12">
+						<div class="menu_area">
+							<nav class="navbar navbar-expand-lg navbar-light">
+								<!-- Logo -->
+								<a class="navbar-brand" href="index.html">
+									<img src="img/core-img/logo.png" alt="Voicecoin">
+								</a>
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false"
+								    aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<!-- Menu Area -->
+								<div class="collapse navbar-collapse" id="ca-navbar">
+									<ul class="navbar-nav ml-auto" id="nav">
+										<li class="nav-item active">
+											<a class="nav-link" href="/index.html">{{vc[lang].header.home}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="javascript:void(0)" @click="goAnchor('#team')">{{vc[lang].header.team}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="http://contribute.voicecoin.com/" target="_blank">{{vc[lang].header.token}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="http://www.voiceweb.io/" target="_blank">{{vc[lang].header.found}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="javascript:void(0)" @click="goAnchor('#home')">{{vc[lang].header.test}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="http://www.voicecoin.com/faq.html" target="_blank">{{vc[lang].header.faq}}</a>
+										</li>
+										<li class="nav-item">
+											<button class="nav-lang" href v-on:click="changeLang">{{vc[lang].header.lang}}</button>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ***** Header Area End ***** -->
+
+		<!-- ***** Wellcome Area Start ***** -->
+		<section class="wellcome_area clearfix" id="home">
+			<div class="container h-100" id="home-container">
+				<div class="row h-100 align-items-center">
+					<div class="col-12 col-md">
+						<div class="wellcome-heading">
+							<!--<img src="img/core-img/logo-2.png" alt="">-->
+							<h2>Voice Enabled World Wide Web</h2>
+							<p>
+								Extend WWW to IoT devices with blockchain technologies
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Welcome thumb -->
+			<div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+				<img src="img/bg-img/welcome-img-2.svg" alt="VOICECOIN">
+			</div>
+			<canvas id="welcome-star">
+			</canvas>
+		</section>
+		<!-- ***** Wellcome Area End ***** -->
+
+		<!-- ***** Vision Start ***** -->
+		<section class="bg-white section_padding_100" id="vision">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Section Heading Area -->
+						<div class="section-heading text-center">
+							<h2>VISION</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 wow fadeInUp sub-title text-justify">
+						<p>To advance with the times, we will build a decentralized voice WEB by establishing a domain name system that conforms
+							to the voice age, stimulates the creativity of small and medium-sized enterprises and individuals, liberates the Internet,
+							and frees the Internet from the monopoly of centralized forces, bringing greater conveniences to the public.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Vision End ***** -->
+
+		<!-- ***** Mission Start ***** -->
+		<section class="bg-white section_padding_50" id="mission">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Section Heading Area -->
+						<div class="section-heading text-center">
+							<h2>MISSION</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 wow fadeInUp sub-title text-justify">
+						<p>​The mission of the foundation is to establish and operate a blockchain-based voice domain name system by establishing
+							technical standards and protocols to connect Chatbots with users around the world, so that in the future, people can
+							access chatbots from any smart voice-enabled device and use the corresponding Chatbot service. Through the community,
+							third-party developers and technological innovations, we will create an open-source globally influential ecology that
+							will integrate voice domain names into domain name services of all walks of life, in order to improve people’s online
+							experience. Through the integration of regulatory logic, and through linking with third-party platforms, we will establish
+							the voice Internet.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Mission End ***** -->
+
+		<!-- ***** Motivation Start ***** -->
+		<section class="bg-white section_padding_50" id="motivation">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Section Heading Area -->
+						<div class="section-heading text-center">
+							<h2>MOTIVATION</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 sub-title text-justify">
+						<p class="wow fadeInUp" data-wow-delay="0.2s">Since the invention of the World Wide Web, it has been widely loved by the public for its open nature. But we have
+							noticed that the Web is not perfect, and its abuses are continuously emerging. 1. In the mobile Internet Era, World
+							Wide Web usage is falling far below that of mobile APPs. ​2. Within social networks, the Web is becoming more and
+							more entangled and entwined with these centralized platforms, becoming little more than an accessory not available
+							to the general public. 3. As stated by Tim Berners Lee, the father of the World Wide Web, the prevalence of rumors
+							and loss of control over personal data are severe challenges to the Web. 4. In the IoT era, people cannot type URLs
+							and browse web pages on a smart voice device that lacks a user interface. If voice is to be the main way people use
+							web services in the future, then entering web addresses into the World Wide Web will be history. 5. Amid the fierce
+							competition of among Internet giants, centralized forces are trying to establish a monopoly over Internet access.
+							The World Wide Web is being split into independent kingdoms by them to track user behavior and covertly sell this
+							data to gain advertising revenue. The result is the inadequate protection of people’s data and privacy, as well as
+							added difficulties for developers and greater inconveniences to those people using the service.</p>
+						<p class="wow fadeInUp" data-wow-delay="0.4s">Artificial intelligence and blockchain technology are constantly creating new conditions that allow people to enjoy
+							a better Internet life. We believe that the World Wide Web can only avoid annihilation by the torrent of technological
+							development in the world through highly advanced development. We cannot rely on the W3C to do this. We have endured
+							an endless era of WAP, which is ample proof of the serious lag in the development of the World Wide Web. We propose
+							building a Voiceweb that combines voice and semantics based upon blockchain technology, building on the three foundational
+							achievements of John Berners Lee, and we are have already established and are in the process of improving the Voiceweb
+							protocol stack. Voice is the most fundamental means of communication between people and should also be the main way
+							for people to communicate with other kinds of intelligence. The trend of smart terminals brought about by cloud integration
+							requires a more powerful human-computer interaction than the touch screen of a mobile phone. With this goal and purpose,
+							we must first establish a decentralized voice domain name system to link with decentralized artificial intelligence
+							services.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Motivation End ***** -->
+
+		<!-- ***** Values Start ***** -->
+		<section class="bg-white section_padding_50" id="values">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Section Heading Area -->
+						<div class="section-heading text-center">
+							<h2>VALUES</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 sub-title text-justify">
+						<p class="wow fadeInUp" data-wow-delay="0.2s">​The Foundation’s core values include non-profit operations structure, open-source, collaboration, interconnection,
+							decentralization, transparency, respect for user privacy, enhancement of Internet security, enhancement of the Internet
+							user’s convenience and experience, and protection of user privacy. The tenet of foundation management is that the
+							foundation’s product designs and management policies must conform to these objectives and they must also be included
+							in the implementation phase. The Foundation’s values are partly inherited from ICANN, the WWW organization, and the
+							Bitcoin Foundation. Any decision that violates these core values must be immediately terminated and corrected. Full
+							support and promotion of this value system is needed for sustainable development. </p>
+						<p class="wow fadeInUp" data-wow-delay="0.4s">ICANN’s goal: One world, One Internet. On this basis, Voice Blockchain analysis is aimed only at voice domain name
+							services, and strives to take the lead amid fierce market competition, gradually forming an industry standard that
+							is accepted by the majority of intelligent speaker equipment manufacturers, thus benefiting more Internet users. The
+							ideologies inherited from the WWW include open-source and inter connectivity. The Voiceweb Blockchain project’s founding
+							tenet is to revitalize the WEB in the era of voice Internet access to avoid complete monopolization by the Internet
+							giants. ​</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Vision End ***** -->
+
+		<!-- ***** Partner Start ***** -->
+		<section class="bg-white section_padding_50" id="partners">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="section-heading text-center">
+							<h2>{{vc[lang].partners.h2}}</h2>
+							<div class="line-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-3">
+						<div class="text-center wow fadeInUp" data-wow-delay="0.2s">
+							<div class="single-icon partner-logo">
+								<img src="img/partner-img/blockchain.jpg" alt="BlockChain at Berkeley">
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="text-center wow fadeInUp" data-wow-delay="0.4s">
+							<div class="single-icon partner-logo">
+								<img src="img/partner-img/blockapps.jpg" alt="BlockApps">
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="text-center wow fadeInUp" data-wow-delay="0.6s">
+							<div class="single-icon partner-logo">
+								<img src="img/partner-img/ethereum-ai.jpg" alt="ethereum AI">
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="text-center wow fadeInUp" data-wow-delay="0.8s">
+							<div class="single-icon partner-logo">
+								<img src="img/partner-img/paper-weekly.jpg" alt="paper weekly">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-3">
+						<div class="text-center wow fadeInUp" data-wow-delay="0.2s">
+							<div class="single-icon partner-logo">
+								<img src="img/partner-img/amazon.jpg" alt="amazon">
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="text-center wow fadeInUp" data-wow-delay="0.4s">
+							<div class="single-icon partner-logo">
+								<img src="img/partner-img/chainqa.png" alt="ChainQA">
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="text-center wow fadeInUp" data-wow-delay="0.6s">
+							<div class="single-icon partner-logo">
+								<img src="img/partner-img/cointime.jpg" alt="cointime">
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="text-center wow fadeInUp" data-wow-delay="0.8s">
+							<div class="single-icon partner-logo">
+								<img src="img/partner-img/forbes.jpg" alt="Forbes">
+							</div>
+						</div>
+					</div>
+					<!--
+						<div class="col-12 col-md-3">
+							<div class="text-center wow fadeInUp" data-wow-delay="0.4s">
+								<div class="single-icon partner-logo">
+									<img src="img/partner-img/kexiang.jpg" alt="科翔资本">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-3">
+							<div class="text-center wow fadeInUp" data-wow-delay="0.6s">
+								<div class="single-icon partner-logo">
+									<img src="img/partner-img/chinarun.jpg" alt="犇逺資本">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-3">
+							<div class="text-center wow fadeInUp" data-wow-delay="0.8s">
+								<div class="single-icon partner-logo">
+									<img src="img/partner-img/hanjing.jpg" alt="汉景家族办公室">
+								</div>
+							</div>
+						</div>
+					</div>
+					-->
+					<!--
+					<div class="row">
+						<div class="col-12 col-md-3">
+							<div class="text-center wow fadeInUp" data-wow-delay="0.2s">
+								<div class="single-icon partner-logo">
+									<img src="img/partner-img/naba.jpg" alt="North American Blockchain Association">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-3">
+							<div class="text-center wow fadeInUp" data-wow-delay="0.4s">
+								<div class="single-icon partner-logo">
+									<img src="img/partner-img/liebao.jpg" alt="猎豹移动">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-3">
+							<div class="text-center wow fadeInUp" data-wow-delay="0.6s">
+								<div class="single-icon partner-logo">
+									<img src="img/partner-img/jinsecaijin.jpg" alt="金色财经">
+								</div>
+							</div>
+						</div>
+					</div>
+					-->
+				</div>
+		</section>
+		<!-- ***** Partner End ***** -->
+
+
+
+
+		<!-- ***** Footer Area Start ***** -->
+		<footer class="footer-social-icon text-center section_padding_70 clearfix">
+			<!-- footer logo -->
+			<div class="footer-img">
+				<img src="img/core-img/logo-3.png" alt="Voicecoin" id="footer-logo">
+			</div>
+			<div class="footer-text">
+				<h3>VOICECOIN</h3>
+			</div>
+			<!-- social icon-->
+			<div class="footer-social-icon">
+				<a href="https://www.facebook.com/pg/Voicecoin-734082453452451" target="_blank">
+					<i class="fab fa-facebook-f" aria-hidden="true"></i>
+				</a>
+				<a href="https://twitter.com/voicecoin" target="_blank">
+					<i class="fab fa-twitter" aria-hidden="true"></i>
+				</a>
+				<a href="https://www.linkedin.com/company/voicecoin/" target="_blank">
+					<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+				</a>
+				<!-- <a href="https://github.com/voicecoin" target="_blank">
+					<i class="fab fa-github-alt" aria-hidden="true"></i> -->
+				</a>
+				<a href="https://t.me/voicecoin" target="_blank">
+					<i class="active fab fa-telegram-plane" aria-hidden="true"></i>
+				</a>
+				<a href="mailto:support@voicecoin.com" target="_blank">
+					<i class="far fa-envelope" aria-hidden="true"></i>
+				</a>
+				<a id="wechat">
+					<i class="fab fa-weixin" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="footer-menu">
+				<nav>
+					<ul>
+						<li>
+							<a href="http://contribute.voicecoin.com/Voiceweb%20Gist.pdf" target="_blank">{{vc[lang].foot.gist}}</a>
+						</li>
+						<li>
+							<a href="https://github.com/voicecoin" target="_blank">{{vc[lang].foot.git}}</a>
+						</li>
+						<li>
+							<a href="mailto:support@voicecoin.com">{{vc[lang].foot.contact}}</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- Foooter Text-->
+			<div class="copyright-text">
+				<!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+				<p>Copyright ©2018
+					<a href="http://www.voiceweb.io/" target="_blank">{{vc[lang].foot.vf}}</a>{{vc[lang].foot.dot}} {{vc[lang].foot.right}}
+				</p>
+			</div>
+		</footer>
+		<!-- ***** Footer Area Start ***** -->
+		</div>
+		<!-- Jquery-2.2.4 JS -->
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<!-- Popper js -->
+		<script src="js/popper.min.js"></script>
+
+		<!-- Bootstrap-4 Beta JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- All Plugins JS -->
+		<script src="js/plugins.js"></script>
+		<!-- Slick Slider Js-->
+		<script src="js/slick.min.js"></script>
+		<!-- Footer Reveal JS -->
+		<script src="js/footer-reveal.min.js"></script>
+		<!-- Active JS -->
+		<script src="js/active.js"></script>
+		<!-- Device Detected JS -->
+		<script src="js/device.js"></script>
+		<!-- Vue js -->
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+		<!-- I18 JS -->
+		<script src="js/i18.js"></script>
+</body>
+
+</html>

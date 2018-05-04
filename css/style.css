@@ -1451,15 +1451,24 @@ canvas#welcome-star {
 }
 
 /* remove video download button */
+
 video::-internal-media-controls-download-button {
-    display:none;
+	display: none;
 }
 
 video::-webkit-media-controls-enclosure {
-    overflow:hidden;
+	overflow: hidden;
 }
 
 video::-webkit-media-controls-panel {
-    width: calc(100% + 30px); /* Adjust as needed */
+	width: calc(100% + 30px);
+	/* Adjust as needed */
 }
 
+.text-justify {
+	text-align: justify;
+}
+
+.text-justify> {
+	text-align: justify;
+}
