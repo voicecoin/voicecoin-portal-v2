@@ -1472,3 +1472,32 @@ video::-webkit-media-controls-panel {
 .text-justify> {
 	text-align: justify;
 }
+
+#faq {
+	height: 70px !important;
+	background-image: url(../img/bg-img/welcome-bg.png);
+}
+
+.faq-header {
+	background-color: #884bdf;
+	-webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+
+.faq-header .menu_area .navbar-brand {
+	font-size: 50px;
+}
+
+.faq-header .menu_area #nav .nav-link,
+.faq-header .menu_area #nav .nav-lang {
+	padding: 23px 15px;
+}
+
+.faq-header .navbar {
+	padding: 0;
+}

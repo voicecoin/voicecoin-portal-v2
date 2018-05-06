@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Title -->
+	<title>VOICECOIN</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="favicon.ico">
+
+	<!-- Core Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Responsive CSS -->
+	<link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div id="voicecoin">
+		<!-- ***** Header Area Start ***** -->
+		<header class="faq-header animated">
+			<div class="container">
+				<div class="row align-items-center">
+					<!-- Menu Area Start -->
+					<div class="col-12 col-lg-12">
+						<div class="menu_area">
+							<nav class="navbar navbar-expand-lg navbar-light">
+								<!-- Logo -->
+								<a class="navbar-brand" href="index.html">
+									<img src="img/core-img/logo.png" alt="Voicecoin">
+								</a>
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false"
+								    aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<!-- Menu Area -->
+								<div class="collapse navbar-collapse" id="ca-navbar">
+									<ul class="navbar-nav ml-auto" id="nav">
+										<li class="nav-item active">
+											<a class="nav-link" href="/index.html">{{vc[lang].header.home}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="http://contribute.voicecoin.com/" target="_blank">{{vc[lang].header.token}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="/foundation.html">{{vc[lang].header.found}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="http://www.voicecoin.net/" target="_blank">{{vc[lang].header.test}}</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="javascript:void(0)" @click="goAnchor('#faq')">{{vc[lang].header.faq}}</a>
+										</li>
+										<li class="nav-item">
+											<button class="nav-lang" href v-on:click="changeLang">{{vc[lang].header.lang}}</button>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ***** Header Area End ***** -->
+
+		<!-- ***** FAQ Start ***** -->
+		<section class="special-area bg-white section_padding_100" >
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** FAQ End ***** -->
+	
+	<!-- ***** Footer Area Start ***** -->
+	<footer class="footer-social-icon text-center section_padding_70 clearfix">
+		<!-- footer logo -->
+		<div class="footer-img">
+			<img src="img/core-img/logo-3.png" alt="Voicecoin" id="footer-logo">
+		</div>
+		<div class="footer-text">
+			<h3>VOICECOIN</h3>
+		</div>
+		<!-- social icon-->
+		<div class="footer-social-icon">
+			<a href="https://www.facebook.com/pg/Voicecoin-734082453452451" target="_blank">
+				<i class="fab fa-facebook-f" aria-hidden="true"></i>
+			</a>
+			<a href="https://twitter.com/voicecoin" target="_blank">
+				<i class="fab fa-twitter" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.linkedin.com/company/voicecoin/" target="_blank">
+				<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+			</a>
+			<!-- <a href="https://github.com/voicecoin" target="_blank">
+					<i class="fab fa-github-alt" aria-hidden="true"></i> -->
+			</a>
+			<a href="https://t.me/voicecoin" target="_blank">
+				<i class="active fab fa-telegram-plane" aria-hidden="true"></i>
+			</a>
+			<a href="mailto:support@voicecoin.com" target="_blank">
+				<i class="far fa-envelope" aria-hidden="true"></i>
+			</a>
+			<a id="wechat">
+				<i class="fab fa-weixin" aria-hidden="true"></i>
+			</a>
+		</div>
+		<div class="footer-menu">
+			<nav>
+				<ul>
+					<li>
+						<a href="http://contribute.voicecoin.com/Voiceweb%20Gist.pdf" target="_blank">{{vc[lang].foot.gist}}</a>
+					</li>
+					<li>
+						<a href="https://github.com/voicecoin" target="_blank">{{vc[lang].foot.git}}</a>
+					</li>
+					<li>
+						<a href="mailto:support@voicecoin.com">{{vc[lang].foot.contact}}</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- Foooter Text-->
+		<div class="copyright-text">
+			<!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+			<p>Copyright ©2018
+				<a href="http://www.voiceweb.io/" target="_blank">{{vc[lang].foot.vf}}</a>{{vc[lang].foot.dot}} {{vc[lang].foot.right}}
+			</p>
+		</div>
+	</footer>
+	<!-- ***** Footer Area Start ***** -->
+	</div>
+	<!-- Jquery-2.2.4 JS -->
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<!-- Popper js -->
+	<script src="js/popper.min.js"></script>
+
+	<!-- Bootstrap-4 Beta JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- All Plugins JS -->
+	<script src="js/plugins.js"></script>
+	<!-- Slick Slider Js-->
+	<script src="js/slick.min.js"></script>
+	<!-- Footer Reveal JS -->
+	<script src="js/footer-reveal.min.js"></script>
+	<!-- Active JS -->
+	<script src="js/active.js"></script>
+	<!-- Device Detected JS -->
+	<script src="js/device.js"></script>
+	<!-- Vue js -->
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<!-- Custom JS -->
+	<script src="js/custom.js"></script>
+	<!-- I18 JS -->
+	<script src="js/i18.js"></script>
+</body>
+
+</html>
