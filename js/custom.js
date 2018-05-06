@@ -1,6 +1,7 @@
 function componentDidMount() {
-	var canvas = document.getElementById("welcome-star"),
-		ctx = canvas.getContext('2d');
+	var canvas = document.getElementById("welcome-star");
+	if (!canvas) return;
+	var ctx = canvas.getContext('2d');
 	var height = $('#home').height();
 	canvas.width = window.innerWidth - 30;
 	canvas.height = height;
