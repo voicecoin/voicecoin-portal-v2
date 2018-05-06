@@ -144,13 +144,14 @@
 
     // :: 9.0 Preloader Active code
     $window.on('load', function () {
-        $('#preloader').fadeOut('slow', function () {
-            $(this).remove();
-		});
-		document.getElementById("video-1").preload = "auto";
-		document.getElementById("video-1").load();
-		document.getElementById("video-2").preload = "auto";
-		document.getElementById("video-2").load();
+		if (document.getElementById("preloader")) {
+			$('#preloader').fadeOut('slow', function () {
+				$(this).remove();
+			});
+			document.getElementById("video-1").preload = "auto";
+			document.getElementById("video-1").load();
+			document.getElementById("video-2").preload = "auto";
+			document.getElementById("video-2").load();
+		}
     });
-
 })(jQuery);
