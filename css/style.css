@@ -1498,35 +1498,36 @@ video::-webkit-media-controls-panel {
 }
 
 .question {
-	cursor: pointer;
-	background-color: #9b69e4;
-	border-radius: 30px 30px 30px 0;
-	padding: 30px 50px 20px 50px;
+	/* cursor: pointer; */
+	/* background-color: #9b69e4; */
+	/* border-radius: 30px 30px 30px 0; */
+	padding: 25px 50px 15px 50px;
 	margin-top: 30px;
-	-webkit-transition: 0.5s;
+	/* -webkit-transition: 0.5s; */
 	/* Safari */
 	transition: 0.5s;
 }
 
 .question:hover {
-	background-color: #fb397d;
+	/* background-color: #fb397d; */
 }
 
-.question>h4 {
-	color: white;
+.question>h6 {
+	color: #9b69e4;
 	line-height: 1;
 }
 
-.question>h4>i {
+.question>h6>i {
 	margin-right: 10px;
 }
 
 .answer {
-	border: #9b69e4 solid 3px;
-	border-radius: 0 30px 30px 30px;
-	padding: 30px 50px 30px 50px;
+	/* border: #9b69e4 solid 3px; */
+	/* border-radius: 0 30px 30px 30px; */
+	padding: 0px 50px 15px 80px;
 }
 
 .answer>p {
 	margin-bottom: 0;
+	font-size: 1rem;
 }
