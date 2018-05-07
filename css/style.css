@@ -1512,19 +1512,25 @@ video::-webkit-media-controls-panel {
 	/* background-color: #fb397d; */
 }
 
-.question>h6 {
+
+.question>i {
+	display: block;
 	color: #9b69e4;
-	line-height: 1;
+	margin-left: -30px;
 }
 
-.question>h6>i {
-	margin-right: 10px;
+.question>h6 {
+	display: block;
+	top: 0;
+	color: #9b69e4;
+	margin-top: -17px;
 }
 
 .answer {
 	/* border: #9b69e4 solid 3px; */
 	/* border-radius: 0 30px 30px 30px; */
-	padding: 0px 50px 15px 80px;
+	padding: 0px 50px 15px 50px;
+	text-align: justify;
 }
 
 .answer>p {
