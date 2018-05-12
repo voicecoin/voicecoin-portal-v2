@@ -293,7 +293,32 @@ var app = new Vue({
 					a09: "The earliest motivation for the Voiceweb project was to find a method of revitalizing the Web in the Internet of Things Era, using Blockchain technology. In the Mobile Era, people are using social platforms more and more, and utilizing the Web less. But these social platforms are centralized and not globally open or interconnected. In this Internet of Things Era, the founders believe that people are more likely to access the Internet via voice. But if a new open standard is not developed, this new Internet access point will be controlled solely by the Internet Giants, which would result in all online services needing to be distributed through a centralized voice platform. The founders are dissatisfied with the bleak outlook of a centralized future, and instead adopt a decentralized view aimed at smashing the monopolies these large companies are establishing, and bringing about the birth of a new open voice Internet Era.",
 					q10: "How do you establish an individual Voice Web ecosystem?",
 					a10: "In the initial Voiceweb’s ecology, we will develop voice application plug-ins on Alexa or Google Home, and these voice plugins will resolve various chatbot service brands. As the marketplace continues to validate this model, a voice-based chatbot browser will eventually be introduced. This browser will be the essential software for voice speakers. The browser access agreement will be open so that more people will develop this kind of browser.",
-				}
+				},
+				found: {
+					h2: "Voice Enabled World Wide Web",
+					p1: "Extend WWW to IoT devices with blockchain technologies",
+					vision: {
+						h1: "Vision",
+						p: "To advance with the times, we will build a decentralized voice WEB by establishing a domain name system that conforms to the voice age, stimulates the creativity of small and medium-sized enterprises and individuals, liberates the Internet, and frees the Internet from the monopoly of centralized forces, bringing greater conveniences to the public.",
+					},
+					mission: {
+						h1: "Mission",
+						p: "The mission of the foundation is to establish and operate a blockchain-based voice domain name system by establishing technical standards and protocols to connect Chatbots with users around the world, so that in the future, people can access chatbots from any smart voice-enabled device and use the corresponding Chatbot service. Through the community, third-party developers and technological innovations, we will create an open-source globally influential ecology that will integrate voice domain names into domain name services of all walks of life, in order to improve people’s online experience. Through the integration of regulatory logic, and through linking with third-party platforms, we will establish the voice Internet.",
+					},
+					moti: {
+						h1: "Motivation",
+						p1: "Since the invention of the World Wide Web, it has been widely loved by the public for its open nature. But we have noticed that the Web is not perfect, and its abuses are continuously emerging. 1. In the mobile Internet Era, World Wide Web usage is falling far below that of mobile APPs. ​2. Within social networks, the Web is becoming more and more entangled and entwined with these centralized platforms, becoming little more than an accessory not available to the general public. 3. As stated by Tim Berners Lee, the father of the World Wide Web, the prevalence of rumors and loss of control over personal data are severe challenges to the Web. 4. In the IoT era, people cannot type URLs and browse web pages on a smart voice device that lacks a user interface. If voice is to be the main way people use web services in the future, then entering web addresses into the World Wide Web will be history. 5. Amid the fierce competition of among Internet giants, centralized forces are trying to establish a monopoly over Internet access. The World Wide Web is being split into independent kingdoms by them to track user behavior and covertly sell this data to gain advertising revenue. The result is the inadequate protection of people’s data and privacy, as well as added difficulties for developers and greater inconveniences to those people using the service.",
+						p2: "Artificial intelligence and blockchain technology are constantly creating new conditions that allow people to enjoy a better Internet life. We believe that the World Wide Web can only avoid annihilation by the torrent of technological development in the world through highly advanced development. We cannot rely on the W3C to do this. We have endured an endless era of WAP, which is ample proof of the serious lag in the development of the World Wide Web. We propose building a Voiceweb that combines voice and semantics based upon blockchain technology, building on the three foundational achievements of John Berners Lee, and we are have already established and are in the process of improving the Voiceweb protocol stack. Voice is the most fundamental means of communication between people and should also be the main way for people to communicate with other kinds of intelligence. The trend of smart terminals brought about by cloud integration requires a more powerful human-computer interaction than the touch screen of a mobile phone. With this goal and purpose, we must first establish a decentralized voice domain name system to link with decentralized artificial intelligence services.",
+					},
+					value: {
+						h1: "Values",
+						p1: "The Foundation’s core values include non-profit operations structure, open-source, collaboration, interconnection, decentralization, transparency, respect for user privacy, enhancement of Internet security, enhancement of the Internet user’s convenience and experience, and protection of user privacy. The tenet of foundation management is that the foundation’s product designs and management policies must conform to these objectives and they must also be included in the implementation phase. The Foundation’s values are partly inherited from ICANN, the WWW organization, and the Bitcoin Foundation. Any decision that violates these core values must be immediately terminated and corrected. Full support and promotion of this value system is needed for sustainable development. ",
+						p2: "ICANN’s goal: One world, One Internet. On this basis, Voice Blockchain analysis is aimed only at voice domain name services, and strives to take the lead amid fierce market competition, gradually forming an industry standard that is accepted by the majority of intelligent speaker equipment manufacturers, thus benefiting more Internet users. The ideologies inherited from the WWW include open-source and inter connectivity. The Voiceweb Blockchain project’s founding tenet is to revitalize the WEB in the era of voice Internet access to avoid complete monopolization by the Internet giants. ​",
+					},
+					partner: {
+						h1: "Partners",
+					}
+				},
 			},
 			zh: {
 				header: {
@@ -556,7 +581,32 @@ var app = new Vue({
 					a09: "",
 					q10: "",
 					a10: "",
-				}
+				},
+				found: {
+					h2: "语音万维网",
+					p1: "将万维网扩展到物联网设备的区块链技术",
+					vision: {
+						h1: "愿景",
+						p: "既然未来以来，所以我们超越现在：开拓一个去中心化的语音万维网，激发中小企业和个人的创造力，解放互联网，从此，互联网摆脱中心化势力的垄断，去繁就简，为人们带来轻松愉悦的生活感受，引领高尚生活。",
+					},
+					mission: {
+						h1: "使命",
+						p: "基金会的使命，旨在通过建立一系列技术标准和协议，建立和运营一个基 于区块链技术的语音域名系统，将全世界的 Chatbot 和全世界的用户连接起来，无论人们未来在何地，都能通过任何智能语音设备，只要通过语音就可以随时随唤聊天机器人，使用相应的 Chatbot 服务。通过社区、第三方开发者和技术创新，打造一个全球具有影响力的开源社区生态，将语音域名融入到各行业各业的会话服务中，改善人们的网络生活。通过融自动化的内容分发共识机制减少人工审查、监管和干预，通过和第三方平台的对接，创建一个全球领先的语音万维网。",
+					},
+					moti: {
+						h1: "初衷",
+						p1: "万维网被发明以来，由于它的开放性和传播性的广泛深深受到了人们的喜爱。然而，任何事物都是不完美的，万维网也不例外。它的弊端正在一一显现: 1、万维网在移动互联网时代的使用率，远远低于移动 APP 的使用率; 2、在社交网络中，Web 更多地被中心化的社交平台携裹，成为一种不能被全球网民浏览的附属物;3、正如万维网之父 Tim Berners Lee 所述，Web 面临谣言的盛行、人们正失去对数据的控制并面临着诸多严峻的挑战; 4、在 IoT 时代，人们无法对着一个无界面的智能语音设备输入网址、浏览网页，如果说未来人们使用网络服务的主要方式是这样的，那么输入网址访问万维网的方式将会成为历史; 5、在互联网巨头的竞争中，各个中心化的势力都在试图建立互联网流量入口上的垄断，万维网被它们分裂成为一个个独立的王国，跟踪用户行为、 变相出卖用户数据牟取广告收入，使人们的数据安全和隐私得不到真正、有效的保护，同时也给开发者带来了开发阻碍和并给他们带来了使用上的诸多不便。",
+						p2: "人工智能和区块链技术，正在不断地创造崭新的条件和空间，让人们可以体验更加美好的互联网生活。我们认为，万维网应具有更加超前的先发优势，才能不被世界科技发展的洪流所湮灭。我们不能依赖 W3C 来做这件事，我们曾经经历过非常漫长的 WAP 时代，这就是万维网发展严重滞后的充分证明。 我们首当其冲提出了：建立语音万维网 Voiceweb。结合语音和语义，基于区块链技术， 从 John Berners Lee 发明的三项基本成果出发来构建语音万维网，已经制定并正在不断改进和完善语音万维网的协议栈。语音是人与人之间最主要、最直接的沟通方式，也应该是人与另一种智能进行交流的主要方式。云端一体化带来的趋势是高度智能化，智能终端需要一个比手机触屏更强大的人机交互方式。基于这个目标和宗旨，我们首先建立了起去中心化的语音域名体系，以对接去中心化的人工智能服务。"
+					},
+					value: {
+						h1: "价值观",
+						p1: "基金会的价值观，主要的核心思想包括开放、互联、去中心化、透明、尊 重用户隐私、强化互联网安全、提高用户使用互联网的便利性和用户体验。 基金会管理的第一条，就是基金会的产品设计、经营决策，必须符合这些 宗旨，并且在具体的实施中不断贯彻执行和体现出这些精神。基金会的价值观部分继承自 ICANN 组织、万维网组织和 Bitcoin 基金会。对于违反这个价值观体系的决策是需要终止和立即被纠正的; 对于迎合、促进这个 价值观体系的决策， 是需要给予支持和鼓励发展的。",
+						p2: "ICANN 的宗旨:One world，One Internet。基于此，Voiceweb 基金 会，旨在主推语音域名区块链技术和配套的传输和解析协议，并努力在激 烈的市场竞争中取得领先，逐渐形成一个行业标准，被广大的智能音箱设备生产厂商接受，进而造福更多的互联网用户。从 WWW 万维网继承的思想，包括开放和互联，Voiceweb Blockchain 项目创立的出发点，就是为了振兴语音互联网时代的万维网，避免万维网入口完全被互联网巨头垄断; 通过 Voiceweb Blockchain，所有聊天机器人都有一个共同的名字和 ID，聊天机器人也可以正式地相互通信。从 Bitcoin 的创立通过去中心化方式解决货币超发和重复支付问题，我们看到了去中心化、透明、 尊重用户隐私、强化互联网安全诸多的理念和要素，这些也将成为 Voiceweb 基金会的重要价值观。",
+					},
+					partner: {
+						h1: "合作伙伴",
+					}
+				},
 			}
 		}
 	},
