@@ -314,6 +314,7 @@ var app = new Vue({
 						h1: "Values",
 						p1: "The Foundation’s core values include non-profit operations structure, open-source, collaboration, interconnection, decentralization, transparency, respect for user privacy, enhancement of Internet security, enhancement of the Internet user’s convenience and experience, and protection of user privacy. The tenet of foundation management is that the foundation’s product designs and management policies must conform to these objectives and they must also be included in the implementation phase. The Foundation’s values are partly inherited from ICANN, the WWW organization, and the Bitcoin Foundation. Any decision that violates these core values must be immediately terminated and corrected. Full support and promotion of this value system is needed for sustainable development. ",
 						p2: "ICANN’s goal: One world, One Internet. On this basis, Voice Blockchain analysis is aimed only at voice domain name services, and strives to take the lead amid fierce market competition, gradually forming an industry standard that is accepted by the majority of intelligent speaker equipment manufacturers, thus benefiting more Internet users. The ideologies inherited from the WWW include open-source and inter connectivity. The Voiceweb Blockchain project’s founding tenet is to revitalize the WEB in the era of voice Internet access to avoid complete monopolization by the Internet giants. ​",
+						img: "img/found-img/found-values-en.png",
 					},
 					partner: {
 						h1: "Partners",
@@ -622,6 +623,7 @@ var app = new Vue({
 						h1: "价值观",
 						p1: "基金会的价值观，主要的核心思想包括开放、互联、去中心化、透明、尊 重用户隐私、强化互联网安全、提高用户使用互联网的便利性和用户体验。 基金会管理的第一条，就是基金会的产品设计、经营决策，必须符合这些 宗旨，并且在具体的实施中不断贯彻执行和体现出这些精神。基金会的价值观部分继承自 ICANN 组织、万维网组织和 Bitcoin 基金会。对于违反这个价值观体系的决策是需要终止和立即被纠正的; 对于迎合、促进这个 价值观体系的决策， 是需要给予支持和鼓励发展的。",
 						p2: "ICANN 的宗旨:One world，One Internet。基于此，Voiceweb 基金 会，旨在主推语音域名区块链技术和配套的传输和解析协议，并努力在激 烈的市场竞争中取得领先，逐渐形成一个行业标准，被广大的智能音箱设备生产厂商接受，进而造福更多的互联网用户。从 WWW 万维网继承的思想，包括开放和互联，Voiceweb Blockchain 项目创立的出发点，就是为了振兴语音互联网时代的万维网，避免万维网入口完全被互联网巨头垄断; 通过 Voiceweb Blockchain，所有聊天机器人都有一个共同的名字和 ID，聊天机器人也可以正式地相互通信。从 Bitcoin 的创立通过去中心化方式解决货币超发和重复支付问题，我们看到了去中心化、透明、 尊重用户隐私、强化互联网安全诸多的理念和要素，这些也将成为 Voiceweb 基金会的重要价值观。",
+						img: "img/found-img/found-values-zh.png",
 					},
 					partner: {
 						h1: "合作伙伴",
