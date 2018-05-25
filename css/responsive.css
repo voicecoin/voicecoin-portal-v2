@@ -21,7 +21,7 @@
 	}
 	.welcome-thumb {
 		width: 50%;
-		bottom: -100px;
+		bottom: 80px;
 		right: 50px;
 	}
 	.video-area {
@@ -74,7 +74,7 @@
 	}
 	.welcome-thumb {
 		width: 50%;
-		bottom: -100px;
+		bottom: 100px;
 		right: 0;
 	}
 	.wellcome-heading {

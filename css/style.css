@@ -462,8 +462,8 @@ p {
 .welcome-thumb {
 	width: 45%;
 	position: absolute;
-	bottom: -130px;
-	right: 85px;
+	bottom: 150px;
+	right: 35px;
 	z-index: 9;
 	overflow: hidden;
 	opacity: 0.9;
@@ -471,7 +471,7 @@ p {
 
 .welcome-thumb img {
 	height: auto;
-	width: 100%;
+	width: 80%;
 }
 
 .wellcome-heading>h2 {
