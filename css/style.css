@@ -595,7 +595,9 @@ p {
 }
 
 .wellcome-heading {
+	position: relative;
 	margin-bottom: 100px;
+	z-index: 100;
 }
 
 /* --------------------------
