@@ -188,6 +188,11 @@ var app = new Vue({
 							h5: 'Millennial Business Strategist',
 							p1: '',
 						},
+						{
+							h4: 'Arnold Gu',
+							h5: 'COO',
+							p1: "An expert of Internet of Things, former director of China Telecom's IoT operation. He is in charge of IoT open lab with considerable experience in IoT products, operation and development. There are 19 authorized patents and 7 ITU standards issued. He is cooperated with more than 100 major customers such as OFO and Haier. He is the leading officer of IoT League which has over 300 members including Intel, Qualcomm, Bosch and IBM etc. He has experience of holding summit forum and exposition. Also he develops more than 1000 IoT solutions and the users break through 100 million.",
+						},
 					]
 				},
 				dev: {
@@ -265,7 +270,7 @@ var app = new Vue({
 					paper: 'White Paper',
 					saft: 'SAFT',
 					gist: 'GIST',
-                    gistpaper: '/doc/voiceweb_en.pdf',
+					gistpaper: '/doc/voiceweb_en.pdf',
 					git: 'GitHub',
 					contact: 'Contact',
 					vf: 'Voiceweb Foundation',
@@ -477,6 +482,11 @@ var app = new Vue({
 							h4: 'Amanda Rivera',
 							h5: '千禧年商业策略师',
 							p1: '',
+						},
+						{
+							h4: '顾冬晨',
+							h5: '首席运营官',
+							p1: "物联网运营专家，担任中国电信物联网运营总监，华东师范大学经济学硕士 。负责物联网开放实验室运营，拥有相当物联网相关产品、运营、开发经验。累计获授 权专利19项、发布ITU标准7项；对ofo、haier等100多家大客户的合作产品提供开发 、测试、咨询、技术支持；负责天翼物联产业联盟运营，拥有大量产业资源。成员发展超300家，包括Intel、高 通、博世、IBM等；举行多次国际产业链高峰论坛、博览会；拥有1000+行业解决方案 ；专网用户突破1亿。",
 						},
 					]
 				},

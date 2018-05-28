@@ -116,241 +116,252 @@ function hoverBio(name) {
 		if (window.innerWidth < 768) {
 			var h = $(`#${name}-bio`).css('height');
 			$(`#${name}`).css('height', h);
-		} 
-	} else {
-			$(".team-hover-effects").fadeOut("slow");
 		}
+	} else {
+		$(".team-hover-effects").fadeOut("slow");
 	}
+}
 
-	$(document).ready(function () {
-		componentDidMount();
+$(document).ready(function () {
+	componentDidMount();
 
-		window.addEventListener("resize", componentDidMount);
+	window.addEventListener("resize", componentDidMount);
 
-		$('#george-zhao').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#elaine-shao').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#yong-duan').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#kyle-bao').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#joyce-zhang').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#craig-watts').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#terry-fogarty').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#chelsea-rustrum').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#david-passiak').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#monette-stephens').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#amanda-rivera').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#ruxiong-li').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#bing-liu').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#pierre-he').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#ken-huang').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#zong-ling').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#liren-chen').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#deming-cha').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-		$('#mingshun-li').bind({
-			click: function () {
-				clickBio(this.id);
-			},
-			mouseenter: function () {
-				hoverBio(this.id);
-			},
-			mouseleave: function () {
-				hoverBio();
-			}
-		});
-
-		$('#wechat').bind({
-			click: function () {
-				var img = $('img#footer-logo').attr("src");
-				if (img === "img/core-img/voicecoin-wechat.jpg") {
-					$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
-				} else {
-					$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
-				}
-			},
-			mouseenter: function () {
-				$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
-			},
-			mouseleave: function () {
-				$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
-			}
-		});
+	$('#george-zhao').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
 	});
+	$('#elaine-shao').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#yong-duan').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#kyle-bao').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#joyce-zhang').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#craig-watts').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#terry-fogarty').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#chelsea-rustrum').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#david-passiak').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#monette-stephens').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#amanda-rivera').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#ruxiong-li').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#bing-liu').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#pierre-he').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#ken-huang').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#zong-ling').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#liren-chen').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#deming-cha').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#mingshun-li').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+	$('#arnold-gu').bind({
+		click: function () {
+			clickBio(this.id);
+		},
+		mouseenter: function () {
+			hoverBio(this.id);
+		},
+		mouseleave: function () {
+			hoverBio();
+		}
+	});
+
+	$('#wechat').bind({
+		click: function () {
+			var img = $('img#footer-logo').attr("src");
+			if (img === "img/core-img/voicecoin-wechat.jpg") {
+				$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
+			} else {
+				$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
+			}
+		},
+		mouseenter: function () {
+			$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
+		},
+		mouseleave: function () {
+			$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
+		}
+	});
+});
