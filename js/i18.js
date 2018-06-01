@@ -190,7 +190,7 @@ var app = new Vue({
 						},
 						{
 							h4: 'Arnold Gu',
-							h5: 'COO',
+							h5: 'CPO',
 							p1: "An expert of Internet of Things, former director of China Telecom's IoT operation. He is in charge of IoT open lab with considerable experience in IoT products, operation and development. There are 19 authorized patents and 7 ITU standards issued. He is cooperated with more than 100 major customers such as OFO and Haier. He is the leading officer of IoT League which has over 300 members including Intel, Qualcomm, Bosch and IBM etc. He has experience of holding summit forum and exposition. Also he develops more than 1000 IoT solutions and the users break through 100 million.",
 						},
 					]
@@ -338,7 +338,7 @@ var app = new Vue({
 					lang: 'ENG'
 				},
 				wel: {
-					title: '欢迎参与语音互联网ICO',
+					title: '欢迎参与语音链ICO',
 					sub1: '我们正在建造语音驱动的去中心化万维网',
 					sub2: '智能语音机器人与物联网之间的桥梁',
 					sub3: '语音币是语音网络的通用货币',
@@ -455,7 +455,7 @@ var app = new Vue({
 						},
 						{
 							h4: 'Craig Watts',
-							h5: '商务拓展总监',
+							h5: '首席战略官',
 							p1: '数字营销专家。 Craig 担任GroupM（WPP）的数字智能总经理，Madhouse!的联合创始人. Craig 拥有大阪大学的媒体研究博士学位和芝加哥大学的英语硕士学位。',
 						},
 						{
@@ -485,7 +485,7 @@ var app = new Vue({
 						},
 						{
 							h4: '顾冬晨',
-							h5: '首席运营官',
+							h5: '首席产品官',
 							p1: "物联网运营专家，担任中国电信物联网运营总监，华东师范大学经济学硕士 。负责物联网开放实验室运营，拥有相当物联网相关产品、运营、开发经验。累计获授 权专利19项、发布ITU标准7项；对ofo、haier等100多家大客户的合作产品提供开发 、测试、咨询、技术支持；负责天翼物联产业联盟运营，拥有大量产业资源。成员发展超300家，包括Intel、高 通、博世、IBM等；举行多次国际产业链高峰论坛、博览会；拥有1000+行业解决方案 ；专网用户突破1亿。",
 						},
 					]
