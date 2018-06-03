@@ -268,6 +268,7 @@ var app = new Vue({
 				},
 				foot: {
 					paper: 'White Paper',
+					medium:'Medium',
 					saft: 'SAFT',
 					gist: 'GIST',
 					gistpaper: '/doc/voiceweb_en.pdf',
@@ -563,6 +564,7 @@ var app = new Vue({
 				},
 				foot: {
 					paper: '白皮书',
+					medium: '专栏',
 					saft: 'SAFT',
 					gist: 'GIST',
 					gistpaper: '/doc/voiceweb_cn.pdf',
