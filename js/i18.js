@@ -259,7 +259,7 @@ var app = new Vue({
 						{
 							h4: 'Mingshun Li',
 							h5: 'CEO of GOODCHAIN INC.',
-							p1: "",
+							p1: "CEO of Haorong Global Inc. Founder & CEO of Haodai.com.",
 						},
 					],
 				},
