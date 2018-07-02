@@ -136,7 +136,7 @@ var app = new Vue({
 					i: [{
 							h4: 'George Zhao',
 							h5: 'Founder, CEO',
-							p1: "A serial entrepreneur, George Zhao developed China's first email system named Kaili. Earlier in his career, George was in charge of the certificates products of Shenda and the streaming media business of Youku, a subsidiary of Alibaba Group. He also operated the earliest Chinese Q & A community of technologies. One of his patents, as a result of his startup in Shanghai was acquired by Tencent and he was reported by sina.com as the inventor mobile IM basic technology and the creator of WeChat. He received his MBA from University of Illinois at Chicago, and studied artificial intelligence and blockchain technology at Stanford University and UC Berkeley. After setting up the Voicebot artificial intelligence platform, he founded Voiceweb based on blockchain technology in Silicon Valley.",
+							p1: "Inventor of WeChat IP, George is an executive member of Blockchain at Berkeley, the CEO of the chatbot development platform Voicebot AI, and a recent dropout from the Stanford Master’s Program in Artificial Intelligence and Cryptography. Before earning an MBA in the US, Jianwen worked for companies including Youku-Tudou (Alibaba), Shanda,and SMS Assist. In late 2017, George published a whitepaper initiating the blockchain voice-based internet together with five leading blockchain developers.",
 						},
 						{
 							h4: 'Elaine Shao',
