@@ -79,7 +79,7 @@ var app = new Vue({
 					]
 				},
 				sl: {
-					h2: 'Our Solution',
+					h2: 'About Voicecoin',
 					h4: 'We propose a blockchain solution to underpin the voice-based Internet',
 					p1: ' Under this new system, chatbot developers will register voice domains on the blockchain, follow a set of simple instructions, and then their chatbots will be launched. In this way, any global user will be able to talk to any registered chatbot. Smart device manufacturers will no longer need to ask chatbot developers to register their chatbots. This solution preserves developer resources, while giving users a more convenient way to surf an open, voice-based internet. As traditional browser-based web sites evolve into chatbots, the traditional domain name system evolves into a decentralized voice domain system, and cryptocurrency becomes the global standard for chatbot payments.',
 					p2: '',
@@ -336,7 +336,7 @@ var app = new Vue({
 					home: '首页',
 					about: '介绍',
 					team: '团队',
-					feat: '介绍',
+					feat: '特点',
 					token: 'Token发行',
 					found: '基金会',
 					test: '测试网路',
@@ -378,7 +378,7 @@ var app = new Vue({
 					]
 				},
 				sl: {
-					h2: '解决方案',
+					h2: '什么是语音链',
 					h4: '一场颠覆性的语音革命已经到来',
 					p1: '我们首当其冲提出：区块链解决方案来支持语音互联网。我们创造并实现一个真正意义上的说比写快的语音区块链新生代！',
 					p2: '全球化开启语音万维网新纪元，开发者一站式发布语音服务，全世界的公众可以免费享用任何语音服务，实现了真正意义上的语音服务共享。任何用户，可以在世界的任何地方，与已注册的语音服务通话。 智能设备制造商将不再需要请开发者注册他们的语音服务。该方案节省了大量开发资源的同时，也为用户提供了更便捷的方式来浏览开放的语音万维网。随着传统的基于浏览器的网站演变成语音服务，传统域名系统将会进化成去中心化的语音域名系统，加密货币将成为语音服务支付的全球标准。非同凡响，不负众望，就是我们要完成的底层技术。',
