@@ -223,7 +223,7 @@ var app = new Vue({
 					]
 				},
 				aa: {
-					h2: 'Advisors & Angels (in no particular order)',
+					h2: 'Advisors & Investors',
 					i: [{
 							h4: 'Ruxiong Li',
 							h5: 'Startup Mentor',
@@ -522,7 +522,7 @@ var app = new Vue({
 					]
 				},
 				aa: {
-					h2: '顾问 & 天使投资人 (排名不分先后)',
+					h2: '顾问 & 天使投资人',
 					i: [{
 							h4: '李儒雄',
 							h5: '创业导师',
