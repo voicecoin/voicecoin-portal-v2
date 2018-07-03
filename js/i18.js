@@ -34,11 +34,14 @@ var app = new Vue({
 		vc: {
 			en: {
 				header: {
-					home: 'Home',
-					team: 'Team',
-					token: 'Token Sale',
-					found: 'Foundation',
-					test: 'Testnet',
+					home: 'HOME',
+					about: 'ABOUT',
+					team: 'TEAM',
+					feat: 'FEATURES',
+					token: 'TOKEN SALE',
+					found: 'FOUNDATION',
+					test: 'TESTNET',
+					white: 'WHITEPAPER',
 					faq: 'FAQ',
 					lang: '中文'
 				},
@@ -331,10 +334,13 @@ var app = new Vue({
 			zh: {
 				header: {
 					home: '首页',
+					about: '介绍',
 					team: '团队',
+					feat: '介绍',
 					token: 'Token发行',
 					found: '基金会',
 					test: '测试网路',
+					white: '白皮书',
 					faq: 'FAQ',
 					lang: 'ENG'
 				},
