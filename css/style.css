@@ -1325,6 +1325,7 @@ p {
 
 .footer-img img {
 	height: 100px;
+	filter: brightness(165%) saturate(85%);
 }
 
 .footer-text>p {
@@ -1338,7 +1339,7 @@ p {
 }
 
 .footer-text>h3 {
-	color: #662D91;
+	color: #9b69e4;
 	font-size: 36px;
 	font-weight: 900;
 }
@@ -1513,7 +1514,6 @@ video::-webkit-media-controls-panel {
 .question:hover {
 	/* background-color: #fb397d; */
 }
-
 
 .question>i {
 	display: block;
