@@ -113,7 +113,7 @@ var app = new Vue({
 					]
 				},
 				feat: {
-					h2: 'Voiceweb Blockchain Features',
+					h2: 'Voicechain Features',
 					i: [{
 							h4: 'Decentralized Platform',
 						},
@@ -223,7 +223,7 @@ var app = new Vue({
 					]
 				},
 				aa: {
-					h2: 'Advisors & Investors',
+					h2: 'Advisors/Investors',
 					i: [{
 							h4: 'Ruxiong Li',
 							h5: 'Startup Mentor',
@@ -273,7 +273,7 @@ var app = new Vue({
 					paper: 'White Paper',
 					medium:'Medium',
 					saft: 'SAFT',
-					gist: 'GIST',
+					gist: 'One Pager',
 					gistpaper: '/doc/voiceweb_en.pdf',
 					git: 'GitHub',
 					contact: 'Contact',
@@ -336,7 +336,7 @@ var app = new Vue({
 					home: '首页',
 					about: '介绍',
 					team: '团队',
-					feat: '特点',
+					feat: '优势',
 					token: 'Token发行',
 					found: '基金会',
 					test: '测试网路',
@@ -345,9 +345,9 @@ var app = new Vue({
 					lang: 'ENG'
 				},
 				wel: {
-					title: '欢迎参与语音链ICO',
-					sub1: '我们正在建造语音驱动的去中心化万维网',
-					sub2: '智能语音机器人与物联网之间的桥梁',
+					title: '欢迎访问语音链',
+					sub1: '我们致力于构建语音驱动的去中心化物联网',
+					sub2: '通过语音链连接数以亿计的IoT设备和智能机器人',
 					sub3: '语音币是语音网络的通用货币',
 					buy: '购买语音币',
 				},
@@ -414,7 +414,7 @@ var app = new Vue({
 				feat: {
 					h2: '语音网络区块链功能',
 					i: [{
-							h4: '去中心化平台',
+							h4: '语音链的优势',
 						},
 						{
 							h4: '安全交易',
@@ -429,7 +429,7 @@ var app = new Vue({
 							h4: '世界范围的交流',
 						},
 						{
-							h4: '快速且正常地运行',
+							h4: '高效运行',
 						},
 					]
 				},
@@ -522,7 +522,7 @@ var app = new Vue({
 					]
 				},
 				aa: {
-					h2: '顾问 & 天使投资人',
+					h2: '顾问 & 投资人',
 					i: [{
 							h4: '李儒雄',
 							h5: '创业导师',
@@ -570,9 +570,9 @@ var app = new Vue({
 				},
 				foot: {
 					paper: '白皮书',
-					medium: '专栏',
+					medium: 'Medium',
 					saft: 'SAFT',
-					gist: 'GIST',
+					gist: 'One Pager',
 					gistpaper: '/doc/voiceweb_cn.pdf',
 					git: 'GitHub',
 					contact: '联系我们',
