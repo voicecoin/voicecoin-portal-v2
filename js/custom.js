@@ -349,6 +349,13 @@ $(document).ready(function () {
 	});
 
 	$('#wechat').bind({
+		hover: function() {
+			if (img === "img/core-img/voicecoin-wechat.jpg") {
+				$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
+			} else {
+				$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
+			}
+		},
 		click: function () {
 			var img = $('img#footer-logo').attr("src");
 			if (img === "img/core-img/voicecoin-wechat.jpg") {
