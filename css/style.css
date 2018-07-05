@@ -1325,7 +1325,7 @@ p {
 
 .footer-img img {
 	height: 100px;
-	filter: brightness(165%) saturate(85%);
+	filter: brightness(168%) saturate(93%) contrast(61%);
 }
 
 .footer-text>p {
