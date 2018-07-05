@@ -351,7 +351,7 @@ $(document).ready(function () {
 	$('#wechat').bind({
 		hover: function() {
 			if (img === "img/core-img/voicecoin-wechat.jpg") {
-				$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
+				$('img#footer-logo').attr("src", "img/core-img/logo-4.png");
 			} else {
 				$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
 			}
@@ -359,7 +359,7 @@ $(document).ready(function () {
 		click: function () {
 			var img = $('img#footer-logo').attr("src");
 			if (img === "img/core-img/voicecoin-wechat.jpg") {
-				$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
+				$('img#footer-logo').attr("src", "img/core-img/logo-4.png");
 			} else {
 				$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
 			}
@@ -368,7 +368,7 @@ $(document).ready(function () {
 			$('img#footer-logo').attr("src", "img/core-img/voicecoin-wechat.jpg");
 		},
 		mouseleave: function () {
-			$('img#footer-logo').attr("src", "img/core-img/logo-3.png");
+			$('img#footer-logo').attr("src", "img/core-img/logo-4.png");
 		}
 	});
 });
