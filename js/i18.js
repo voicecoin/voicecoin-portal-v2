@@ -93,7 +93,7 @@ var app = new Vue({
 							p: 'Developers publish chatbot in one stop',
 						},
 						{
-							h4: 'Customizability',
+							h4: 'Diversity',
 							p: 'A global voice chatbot economy opens up',
 						},
 					]
@@ -392,7 +392,7 @@ var app = new Vue({
 							p: '一站开发，省时省力',
 						},
 						{
-							h4: '定制化',
+							h4: '丰富多样',
 							p: '全球开启人工智能新经济',
 						},
 					]
@@ -413,9 +413,9 @@ var app = new Vue({
 					]
 				},
 				feat: {
-					h2: '语音网络区块链功能',
+					h2: '语音链的优势',
 					i: [{
-							h4: '语音链的优势',
+							h4: '去中心化',
 						},
 						{
 							h4: '安全交易',
