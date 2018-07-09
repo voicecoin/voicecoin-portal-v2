@@ -80,7 +80,7 @@ var app = new Vue({
 					]
 				},
 				sl: {
-					h2: 'About Voicecoin',
+					h2: 'ABOUT VOICECOIN',
 					h4: 'We propose a blockchain solution to underpin the voice-based Internet',
 					p1: ' Under this new system, chatbot developers will register voice domains on the blockchain, follow a set of simple instructions, and then their chatbots will be launched. In this way, any global user will be able to talk to any registered chatbot. Smart device manufacturers will no longer need to ask chatbot developers to register their chatbots. This solution preserves developer resources, while giving users a more convenient way to surf an open, voice-based internet. As traditional browser-based web sites evolve into chatbots, the traditional domain name system evolves into a decentralized voice domain system, and cryptocurrency becomes the global standard for chatbot payments.',
 					p2: '',
@@ -114,7 +114,7 @@ var app = new Vue({
 					]
 				},
 				feat: {
-					h2: 'Voicecoin Features',
+					h2: 'VOICECOIN FEATURES',
 					i: [{
 							h4: 'Decentralized Platform',
 						},
@@ -136,7 +136,7 @@ var app = new Vue({
 					]
 				},
 				team: {
-					h2: 'Our Team',
+					h2: 'OUT TEAM',
 					i: [{
 							h4: 'George Zhao',
 							h5: 'Founder, CEO',
@@ -224,7 +224,7 @@ var app = new Vue({
 					]
 				},
 				aa: {
-					h2: 'Advisors/Investors',
+					h2: 'ADVISORS/INVESTORS',
 					i: [{
 							h4: 'Ruxiong Li',
 							h5: 'Startup Mentor',
@@ -268,7 +268,7 @@ var app = new Vue({
 					],
 				},
 				partners: {
-					h2: 'Partners'
+					h2: 'PARTNERS/RESS'
 				},
 				foot: {
 					paper: 'White Paper',
